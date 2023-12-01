@@ -44,6 +44,10 @@ table{
 tr:nth-child(odd){
     background-color: lightgray;
 }
+iframe{display: block;
+    margin: auto;
+    margin-bottom: 50px;
+}
 td, th, tr,table{
     border: 1px solid black;
 }
@@ -52,6 +56,9 @@ main section p{
     margin:auto;
     width: 900px;
 
+}
+#end{
+    text-align: center;
 }
 
 main section{
