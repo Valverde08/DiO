@@ -8,44 +8,104 @@
         *{
             margin: 0;
             padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            
         }
         header{
             border-bottom: 1px solid black;
+            margin-bottom: 20px;
         }
         header > img{
-            text-align: left;
+            
             width: 200px;
             padding: 10px 15px;
         }
-        main > nav{
+        main{
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+            
+            
+        } 
+        main > picture {
+            text-align: center;
+            display: block;
+            margin: auto;
+            padding: 50px 0 0 0 ;
+            
+        }
+        picture figcaption{
+            padding: 50px 0 0 0;
+        }
+        main > article{
+            border-left: 1px solid rgb(66, 64, 64);
+            
+        }
+        
+        #nav-esq > div{
             float: left;
+            text-align: center;
+            
+           
+            width: 25vw;
+        }
+        #nav-dire > div{
+            float: right;
+            text-align: center;
+            width: 25vw;
+            
+        }
+        main > article{
+            width: 50vw;
+            margin: auto;
         }
     </style>
 </head>
 <body>
     <header>
-        <img src="./imagens/logo/Wikipedia-logo.jpg" alt="">
+        <img src="./imagens/logo/Wikipedia-logo.jpg" alt="Logo da wikipedia">
         
     </header>
     <main>
-        <nav>
-            <h1>Títulos</h1>
-            <a href=""></a>
-            <a href="">            </a>
-            <a href=""></a>
+        <nav id="nav-esq">
+            <div>
+                <h1>Títulos</h1>
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+            </div>
+
+
+        </nav>
+        <nav id="nav-dire">
+            <div>
+                <h1>Neste Artigo</h1>
+                <a href="#sb-got">Sobre GOT</a>
+                <a href="">            </a>
+                <a href=""></a>
+            </div>
 
 
         </nav>
         
             <article>
                 <section>
-                    <h1>Tudo sobre a Nintendo</h1>
-                    <p>A Nintendo Co., Ltd. (任天堂株式会社 Nintendō Kabushiki Gaisha?) é uma desenvolvedora e publicadora japonesa de jogos eletrônicos e consoles sediada em Quioto. Foi fundada em setembro de 1889 pelo artesão Fusajiro Yamauchi e originalmente era uma fabricante de cartas de baralho tradicionais japonesas. A Nintendo continuou nesse ramo por mais de meio século, no caminho passando por períodos de sucesso e dificuldade, começando a se aventurar em novos negócios a partir da década de 1960. A empresa finalmente entrou no mercado de jogos eletrônicos em 1977 com o lançamento do console Color TV-Game.</p>
-                    <p>Seu console seguinte foi o Nintendo Entertainment System, lançado em 1983 no Japão e dois anos depois no resto do mundo. Ele foi um enorme sucesso comercial e popularizou várias franquias da empresa, como Donkey Kong, Super Mario, The Legend of Zelda e Metroid. Ele foi sucedido por outros consoles de sucesso, como Super Nintendo Entertainment System e a linha Game Boy, que reafirmaram a dominância da Nintendo no mercado. Entretanto, a ascensão do PlayStation e depois do Xbox na virada do século fez com que o Nintendo 64 e Nintendo GameCube fossem considerados fracassos comerciais.</p>
-                    <p>Seu console seguinte foi o Nintendo Entertainment System, lançado em 1983 no Japão e dois anos depois no resto do mundo. Ele foi um enorme sucesso comercial e popularizou várias franquias da empresa, como Donkey Kong, Super Mario, The Legend of Zelda e Metroid. Ele foi sucedido por outros consoles de sucesso, como Super Nintendo Entertainment System e a linha Game Boy, que reafirmaram a dominância da Nintendo no mercado. Entretanto, a ascensão do PlayStation e depois do Xbox na virada do século fez com que o Nintendo 64 e Nintendo GameCube fossem considerados fracassos comerciais.</p>
-                    <p>A empresa também possui várias divisões, subsidiárias e afiliadas, para as quais delega a responsabilidade de desenvolver e distribuir parte de seus produtos, também sendo parceira de negócios na The Pokémon Company e HAL Laboratory. A Nintendo e suas produções já receberam diferentes prêmios da indústria de jogos eletrônicos, incluindo em categorias do Game Developers Choice Awards, British Academy Games Awards e The Game Awards. É também uma das empresas japonesas de maior riqueza e valor de mercado, além de possuir uma política de responsabilidade social considerada uma das de melhor reputação do mundo.</p>
+                    <h1 id="sb-got">Tudo sobre GOT</h1>
+                    <p>Game of Thrones é uma série de televisão norte-americana criada por David Benioff e D. B. Weiss, baseada na série de livros A Song of Ice and Fire de George R. R. Martin. Eleita como a melhor série de TV do século XXI em 2020, numa votação popular feita pela revista Digital Spy, Game of Thrones foi transmitida originalmente pelo canal HBO entre 17 de abril de 2011 a 19 de maio de 2019.[3][4] No elenco principal estão Peter Dinklage, Nikolaj Coster-Waldau, Lena Headey, Emilia Clarke, Iain Glen, Michelle Fairley, Richard Madden, Kit Harington, Sophie Turner, Maisie Williams, Isaac Hempstead Wright, entre outros.</p>
+                    
+                </section>
+                <section>
+                    <h2>Sinopse</h2>
+                    <p>Situada nos continentes fictícios de Westeros e Essos, a série centra-se no Trono de Ferro dos Sete Reinos e segue um enredo de alianças e conflitos entre as famílias nobres dinásticas, seja competindo para reivindicar o trono ou lutando por sua independência.</p>
+                </section>
+                <section>
+                    <h2>Produção</h2>
+                    <p>Em janeiro de 2006, David Benioff revelou que desde pequeno se considerava fã de ficção fantástica, e puxou conversa por telefone com o representante de Martin para expressar seu interesse em adaptar a série, embora tenha revelado que não a havia lido até aquele ponto. O representante então lhe enviou cópias dos quatro livros publicados até aquela época.[17] Assim que terminou a leitura dos livros, Benioff contatou D. B. Weiss para sugerir uma adaptação para a televisão.[18] Após uma reunião de cinco horas com Martin em um restaurante no Santa Monica Boulevard para discutir sua proposta e compartilhar ideias sobre As Crónicas de Gelo e Fogo - que incluiu a análise de uma hipótese sobre a identidade da mãe de Jon Snow - Benioff e Weiss obtiveram permissão para a adaptarem para uma série.</p>
                 </section>
             </article>
+            <picture>
+                <img src="imagens/GameofThrones.png" alt="Imagem de abertura do Serie Game of trhones">
+                <figcaption>Imagem de abertura do Serie Game of trhones</figcaption>
+            </picture>
 
         
         <aside>
