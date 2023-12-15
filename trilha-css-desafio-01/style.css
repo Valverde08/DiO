@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0px;
+}
+.banner{
+    
+    background: #07171e url(assets/images/banner.png)  no-repeat  ;
+    height: 605px;
+    
+}
+.banner-content{
+    color: white;
+}
+.logo img{
+    display: block;
+    margin: auto;
+}
+
+
