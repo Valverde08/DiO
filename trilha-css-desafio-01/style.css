@@ -4,18 +4,43 @@
     margin: 0;
     padding: 0px;
 }
-.banner{
+.banner-content{
+    background-image: url(assets/images/banner.png), linear-gradient(#020608, #050a0c) ;
     
-    background: #07171e url(assets/images/banner.png)  no-repeat  ;
     height: 605px;
     
 }
 .banner-content{
     color: white;
 }
+.logo{
+    display: block;
+    margin: auto;
+    width: 268px;
+    height: 268px;
+    background-color: white;
+    opacity: 0.5;
+    border-radius: 50%;
+}
 .logo img{
     display: block;
     margin: auto;
+    
+}
+.banner-content h1, p {
+   text-align: center;
+}
+.banner-content button{
+    display: block;
+    margin: auto;
+    background-color: transparent;
+
+    width: 326px;
+    height: 57px;
+    border: 2px solid blue;
+    color: #33A8DB;
+    
+    
 }
 
 
