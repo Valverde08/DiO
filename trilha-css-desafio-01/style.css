@@ -18,9 +18,14 @@
     margin: auto;
     width: 268px;
     height: 268px;
-    background-color: white;
-    opacity: 0.5;
+    
+    
     border-radius: 50%;
+    background-image: url(assets/images/logo.png);
+    background-repeat: no-repeat;
+    background-color: rgb(128, 128, 128);
+    
+
 }
 .logo img{
     display: block;
