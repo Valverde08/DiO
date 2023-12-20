@@ -5,10 +5,21 @@
     padding: 0px;
     font-family: 'Raleway', sans-serif;
 }
-.banner-content{
+header{
+    background-size: cover;
+    background-repeat: no-repeat;
     background-image: url(assets/images/banner.png), linear-gradient(#020608, #050a0c) ;
+    width: 100vw;
     
     height: 605px;
+    border-bottom: 2px solid #33A8DB;
+}
+
+.banner-content{
+    width: 510px;
+    margin: auto;
+    height: 393px;
+     
     
 }
 .banner-content{
@@ -28,10 +39,23 @@
     line-height: 46.96px;
     width: 434px;
     height: 47px;
-    margin: auto;
-    
+    margin: 10px auto;
 }
+    
+.banner-content p{
+    width: 510px;
+    height: 46px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 23.48px;
+    font-weight: 400;
+    word-break: break-all;
+    margin-top: 5px;
+}
+
+
 .logo{
+    
     display: block;
     margin: auto;
     width: 268px;
@@ -59,15 +83,50 @@
 }
 .banner-content button{
     display: block;
-    margin: auto;
+    margin:24px  auto 0px;
     background-color: transparent;
 
     width: 326px;
     height: 57px;
-    border: 2px solid blue;
-    color: #33A8DB;
+    border: 2px solid;
+    border-image-source: linear-gradient(#33A8DB, #1472B7);
+    border-image-slice: 10;
+    
+   
+    font-size: 16px;
+    font-weight: 900;
+    background-color:#33A8DB ;
+    background-image: linear-gradient(to top,#33A8DB, #1472B7);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-clip: text;
+    line-height: 18px;
     
     
 }
+main{
+    background-color: black;
+    color:white;
+}
+section{
+    padding-top: 70px;
+    
+}
+#course-content{
+    text-align: center;
+    margin: auto ;
+    width: 792px;
+    height: 325px;
 
-
+}
+#course-content h2{
+    text-align: center;
+    background-color:#33A8DB ;
+    background-image: linear-gradient(to top,#33A8DB, #1472B7);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-clip: text;
+    font-weight: 700;
+    font-size: 32px;
+    
+}
