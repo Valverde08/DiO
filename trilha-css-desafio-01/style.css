@@ -12,24 +12,38 @@
 }
 .banner-content{
     color: white;
+    
+    
+}
+
+.banner-content h1{
+    background-color:#33A8DB ;
+    background-image: linear-gradient(to top,#33A8DB, #1472B7);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-clip: text;
 }
 .logo{
     display: block;
     margin: auto;
     width: 268px;
-    height: 268px;
-    
-    
+    height: 268px;  
     border-radius: 50%;
-    background-image: url(assets/images/logo.png);
+    
     background-repeat: no-repeat;
-    background-color: rgb(128, 128, 128);
+    background-color: rgba(138, 134, 134, 0.5);
+    
     
 
 }
-.logo img{
-    display: block;
-    margin: auto;
+.logo > img{
+   width: 248px;
+   height: 216px;
+   
+   position: absolute;
+   
+   top: 17px;
+   
     
 }
 .banner-content h1, p {
