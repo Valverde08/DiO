@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0px;
+    font-family: 'Raleway', sans-serif;
 }
 .banner-content{
     background-image: url(assets/images/banner.png), linear-gradient(#020608, #050a0c) ;
@@ -22,6 +23,13 @@
     -webkit-background-clip: text;
     color: transparent;
     background-clip: text;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 46.96px;
+    width: 434px;
+    height: 47px;
+    margin: auto;
+    
 }
 .logo{
     display: block;
