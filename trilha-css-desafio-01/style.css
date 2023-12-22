@@ -55,6 +55,7 @@ header{
 
 
 .logo{
+    position: relative;
     
     display: block;
     margin: auto;
@@ -73,7 +74,7 @@ header{
    height: 216px;
    
    position: absolute;
-   
+   left: 6%;
    top: 17px;
    
     
