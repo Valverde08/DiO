@@ -63,12 +63,12 @@ header{
     border-radius: 50%;
     
     background-repeat: no-repeat;
-    background-color: rgba(138, 134, 134, 0.5);
+    background-color: rgba(138, 134, 134, 0.075);
     
     
 
 }
-.logo > img{
+.logo  img{
    width: 248px;
    height: 216px;
    
@@ -115,8 +115,8 @@ section{
 #course-content{
     text-align: center;
     margin: auto ;
-    width: 792px;
-    height: 325px;
+    width: 820px;
+    height: 435px;
 
 }
 #course-content h2{
@@ -128,5 +128,106 @@ section{
     background-clip: text;
     font-weight: 700;
     font-size: 32px;
+    line-height: 37.57px;
+    letter-spacing: 0.19em;
+    
     
 }
+#course-content p{
+    width: 792px;
+    height: 16px;
+    text-align: center;
+    padding: 15px 0 50px 0;
+}
+
+.module{
+    border: 1px solid #33A8DB;
+    border-radius: 57px;
+    padding: 16px 127px;
+    
+    width: 535px;
+    
+    margin: 0 auto 30px;
+    box-shadow: -2px 6px 4px 0px #00000066 inset;
+    background-color: #252525;
+    overflow: auto;
+
+    
+}
+.module span{ 
+    color: #33A8DB;
+}
+#transform-world{
+    background-image: url(assets/images/woman-code.png);
+    background-attachment: fixed;
+    width: 100vw;
+    height: 363px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+    
+
+}
+#transform-world p{
+    text-align: left;
+    
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 47px;
+    letter-spacing: 0em;
+    
+    text-shadow: 1px 5px 2px #33A8DB;
+    width: 280px;
+    height: 141px;
+
+
+}
+#professional-challenges{
+    text-align: center;
+    padding-bottom: 50px;
+}
+#professional-challenges h2{
+    width: 746px;
+    height: 76px;
+    margin: auto;
+    
+    color: #33A8DB;
+
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.19em;
+    
+    
+
+}
+#professional-challenges p{
+    width: 792px;
+    height: 76px;
+    margin: auto;
+    
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+
+
+}
+footer{
+    background-color: black;
+    text-align: center;
+    height: 130px;
+    border-top: 1px solid  #33A8DB;
+    padding-top: 40px;
+    
+}
+footer p{
+    color: white;
+}
+footer a{
+    text-decoration: none;
+    color: #33A8DB;
+}
+
