@@ -7,16 +7,45 @@
 
 }
 header{
-     display: flex;
+    display: flex;
     
-    width: 1440px;
+    width: 99vw;
     height: 56px;
     padding: 0px, 24px, 0px, 24px;
-    justify-items: center;
+    justify-content: space-between;
+    
+    
 
 }
+#you-men{
+    width: 124px;
+    height: 24px;
+    display: flex;
+}
 
+#menu-log-left{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    position: relative;
+    Top:16px;
+    Left:24px;
+}
+#logo-you img{
+    width: 90px;
+    height: 20px;
+    position: relative;
+    Top:18px;
+    Left:80px;
+    
+    padding: 6px, 3px, 6px, 3px;
 
+}
+form{
+    width: 404px;
+    height: 40px;
+    
+}
 
 .botao {
     
@@ -80,3 +109,4 @@ button img{
 #bara-like{
     display: flex;
 }
+
