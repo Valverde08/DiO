@@ -115,15 +115,15 @@ main{
 main section{
     margin: 20px 28px 5px 0px;
 }
-aside{
-    display: flex;
-}
-aside div{
-    flex-direction: column;
-}
+
+
 #videos-as {
     height: 938px;
     width: 160px;
 
+}
+.content{
+    display: flex;
+    flex-direction: row;
 }
 
