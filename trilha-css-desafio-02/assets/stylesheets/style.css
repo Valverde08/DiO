@@ -80,14 +80,17 @@ form{
     
 }
 form{
+    margin-top: 16px;
     display: flex;
 }
 form input{
     width: 400px;
     height: 40px;
+    
 
 }
 header button{
+   
     width: 57px;
     height: 40px;
     position: relative;   
@@ -106,11 +109,29 @@ button img{
     
     
 }
-#bara-like{
+#icon-rigth{
+    width: 130px;
+    height: 34px;
     display: flex;
+    justify-content: space-evenly;
 }
+#icon-rigth img{
+    width: 24px;
+    height: 24px;
+    margin-top: 16px;
+    
+}
+
+/* parte central */
 main{
     display: flex;
+    width: 952px;
+    height: 746px;
+    margin-left: 75px;
+}
+#bara-like{
+    display: flex;
+    
 }
 main section{
     margin: 20px 28px 5px 0px;
@@ -119,11 +140,37 @@ main section{
 
 #videos-as {
     height: 938px;
-    width: 160px;
+    width: 356px;
 
 }
 .content{
     display: flex;
     flex-direction: row;
+}
+.content h1{
+    display: inline;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    margin: 5px 0 5px 5px;
+    
+
+}
+.content p{
+    display: inline;   
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    margin: 5px 0 5px 5px;
+    
+
+}
+.w-videos{
+    width: 160px;
+}
+.text-cont{
+    width:text-cont;
 }
 
