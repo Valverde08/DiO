@@ -128,6 +128,56 @@ main{
     width: 952px;
     height: 746px;
     margin-left: 75px;
+    
+}
+main section div{
+    gap: 42px;
+}
+main > section h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+}
+#channel-info{
+    display: flex;
+    width: 160px;
+    height: 42px;
+    gap: 12px;  
+
+}
+#channel-info img{
+    width: 42px;
+    height: 42px;
+
+}
+#dio{
+    width: 106px;
+    height: 32px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+#channel-info  p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+#channel-info-text{
+    display: flex;
+    flex-direction: column;
 }
 #bara-like{
     display: flex;
