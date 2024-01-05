@@ -125,10 +125,15 @@ button img{
 /* parte central */
 main{
     display: flex;
-    width: 952px;
-    height: 746px;
+    width: 80vw;
+    
     margin-left: 75px;
     
+}
+main section{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 main section div{
     gap: 42px;
@@ -177,6 +182,7 @@ main > section h1 {
     display: flex;
     width: 902px;
     height: 42px;
+   
     
 }
 main section{
@@ -206,6 +212,8 @@ main button{
     width: 63px;
     height: 24px;
     gap: 5px;
+    align-items:  center;
+    
     
 }
 #like p{
@@ -216,9 +224,55 @@ main button{
     letter-spacing: 0em;
     text-align: left;
     word-break: keep-all;
-    display: inline-block;
+    display: flex;
     width: 40px;
     height: 16px;
+    
+    
+
+}
+#deslike{
+    width: 100px;
+    height: 24px;
+}
+#share{
+    width: 115px;
+    height: 24px;
+}
+#down{
+    width: 95px;
+    height: 24px;
+}
+
+#text-compl{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#text-compl h2{
+    width: 391px;
+    height: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+#text-compl p{
+    width: 510px;
+    height: 64px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:black ;
+    
+
 
 }
 
@@ -226,36 +280,47 @@ main button{
 #videos-as {
     height: 938px;
     width: 356px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
+    
 
 }
 .content{
     display: flex;
-    flex-direction: row;
+    
+    
+}
+.content div {
+    width: 193px;
+    height: 73px;
+    
 }
 .content h1{
-    display: inline;
+    display: flex;
     font-size: 14px;
     font-weight: 600;
     line-height: 16px;
     letter-spacing: 0em;
     margin: 5px 0 5px 5px;
+
+    
     
 
 }
 .content p{
-    display: inline;   
+    display: flex;   
     font-size: 12px;
     font-weight: 400;
     line-height: 14px;
     letter-spacing: 0em;
     margin: 5px 0 5px 5px;
+   
     
 
 }
 .w-videos{
     width: 160px;
-}
-.text-cont{
-    width:text-cont;
 }
 
