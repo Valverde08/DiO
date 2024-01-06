@@ -125,15 +125,18 @@ button img{
 /* parte central */
 main{
     display: flex;
-    width: 80vw;
+    width: 100vw;
     
     margin-left: 75px;
+    margin-top: 28px;
     
 }
 main section{
     display: flex;
     flex-direction: column;
     gap: 15px;
+    width: 70vw;
+    margin: 0px 28px 5px 0px;
 }
 main section div{
     gap: 42px;
@@ -185,9 +188,7 @@ main > section h1 {
    
     
 }
-main section{
-    margin: 20px 28px 5px 0px;
-}
+
 main button{
     width: 159px;
     height: 40px;
