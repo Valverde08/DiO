@@ -1,6 +1,11 @@
+const num = [10, 51]
+let i = 0
 
-function gets(object){
-    return object
+function gets(){
+    const valor = num[i]
+    i++
+    return valor
+
 }
 
 function print(text){
