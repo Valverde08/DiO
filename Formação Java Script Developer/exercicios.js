@@ -1,9 +1,20 @@
 const {gets, print} = require('./funcoes-iniciais')
 
-const n = gets()
+const array = [10, 51,  3, 75, 36, 89, 99]
+
 let maiorNumPar = 0 
-if(gets() > maiorNumPar && gets % 2 === 0){
-    maiorNumPar = gets()
+let maiorNumImpar = 0
+const num = array.length
+for (let i = 0; i < num; i++) {
+    const element = array[i]
+    if( element > maiorNumPar && element % 2 === 0){
+         maiorNumPar = element
+    } else if (element > maiorNumImpar && element % 2 === 1){
+         maiorNumImpar = element
+    }
+    
 }
 
-print(n)
+
+print(maiorNumPar)
+print(maiorNumImpar)
