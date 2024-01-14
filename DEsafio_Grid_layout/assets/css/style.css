@@ -24,8 +24,25 @@ header form{
 #men-rigth{
     justify-self: right; 
 }
+/*navegação lateral*/
+#gird-lat{
+   display: flex;
+   flex-direction: column;
+}
+#gird-lat img{
+    width: 24px;
+    padding-left: 1rem;
+}
+#inicio{
+    display: flex;
 
+    flex-direction: row;
+    width: 75px;
+}
 /*parte central*/
+
 main{
     background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 218px auto;
 }
