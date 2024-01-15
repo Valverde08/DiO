@@ -26,18 +26,32 @@ header form{
 }
 /*navegação lateral*/
 #gird-lat{
-   display: flex;
-   flex-direction: column;
+   display: grid;
+   grid-template-rows: auto;
+   row-gap: 20px;
+   
 }
 #gird-lat img{
     width: 24px;
     padding-left: 1rem;
 }
-#inicio{
-    display: flex;
 
-    flex-direction: row;
-    width: 75px;
+.icons-left{
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    font-family:  'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.icons-left p{
+   align-self: center;
+}
+#inicio{
+    font-weight: 700;
 }
 /*parte central*/
 
@@ -45,4 +59,9 @@ main{
     background-color: aliceblue;
     display: grid;
     grid-template-columns: 218px auto;
+}
+#videos{
+    display: grid;
+    grid-template:repeat(3, 1fr) / repeat(4, 1fr);
+
 }
