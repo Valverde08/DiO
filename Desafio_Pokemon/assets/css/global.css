@@ -28,6 +28,7 @@
     border-radius: 10px;
     height: 80px;
     background-color: #14a06f;  
+    gap: 15px;
           
          
 }
@@ -41,22 +42,40 @@
     justify-content: end;
 }
 
-#pokemons img{
-    grid-area: pokemon;
-}
+
 #pokemons span{
     color:#167755 ;
     font-weight: 600;
     
+    
+}
+
+.numeracao{
     text-align: right;
-    top: -10px;
+    
 }
 #pokemons p{
+    
     color: white;
     position: absolute;
-    text-align: right;
+    
     top: -1px;
+    padding-bottom: 25px;
 }
+.status{
+    display: grid;
+    width: 50px;
+    grid-template: 1fr 1fr;
+    row-gap: 5px;
+   
+    
+}
+.status span{
+    background-color: #4bdaa8;
+    border-radius: 10px;
+    text-align: center;
+}
+
 #pokemons img{
     position: absolute;
     top:-24px;
