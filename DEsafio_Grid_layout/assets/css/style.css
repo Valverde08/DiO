@@ -3,37 +3,74 @@
     padding: 0;
 }
 header{
-    width: 99vw;
+    
+    width:99vw;
     height: 56px;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
     
 }
 #men-left{
     width: 146px;
     height: 24px;
-    margin: 1rem 0 0 1rem;
+    padding-left: 1rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    
     
 
+}
+#logo{
+    width: 90px;
+    height: 20px;
 }
 header form{
     justify-items: center;
     justify-self: center;
+    
+}
+#input{
+    display: grid;
+    grid-template-columns: auto auto;
+    
+
+
+}
+header input{
+    
+    width: 348px;
+    height: 40px;
+}
+header button{
+    
+    width: 57px;
+    height: 40px;
 }
 #men-rigth{
-    justify-self: right; 
+    width: 130px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-between;
+    justify-self: end;
+    align-self: center;
+    
+    
 }
 /*navegação lateral*/
 #gird-lat{
+   padding:2rem 1rem 0 1rem ;
    display: grid;
    grid-template-rows: auto;
    row-gap: 20px;
+   background-color: white;
    
 }
 #gird-lat img{
     width: 24px;
-    padding-left: 1rem;
+    
 }
 
 .icons-left{
@@ -54,14 +91,10 @@ header form{
     font-weight: 700;
 }
 /*parte central*/
-
 main{
-    background-color: aliceblue;
-    display: grid;
-    grid-template-columns: 218px auto;
+    display: flex;
 }
-#videos{
-    display: grid;
-    grid-template:repeat(3, 1fr) / repeat(4, 1fr);
 
+#videos{
+    width: 99vw;
 }
