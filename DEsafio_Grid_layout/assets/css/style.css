@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family:  'Roboto', sans-serif;
 }
 header{
     
@@ -10,6 +11,7 @@ header{
     grid-template-columns: 1fr 2fr 1fr;
     justify-content: space-evenly;
     align-items: center;
+    padding-bottom: 10px;
     
 }
 #men-left{
@@ -65,7 +67,7 @@ header button{
    display: grid;
    grid-template-rows: auto;
    row-gap: 20px;
-   background-color: white;
+   
    
 }
 #gird-lat img{
@@ -74,14 +76,15 @@ header button{
 }
 
 .icons-left{
+    width: 218px;
     display: grid;
-    grid-template-columns: 60px 1fr;
+    grid-template-columns: 40px 1fr;
     font-family:  'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 16px;
     letter-spacing: 0em;
-    text-align: left;
+    align-items: center;
 
 }
 .icons-left p{
@@ -93,8 +96,52 @@ header button{
 /*parte central*/
 main{
     display: flex;
+    width: 100vw;
 }
 
 #videos{
-    width: 99vw;
+    width: 100vw;
+    padding-top: 40px;
+    
+    
+    
+    display: grid;
+    grid-template: repeat(3, 1fr)/ repeat(4, 350px);
+    row-gap: 50px;
+    place-items: center;
+    justify-items: end;
+    
+    background-color:#f9f9f9 ;
+    
 }
+
+.video-todo-cent h1{
+    
+  
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+
+}
+.video-todo-cent p{
+    
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    
+
+}
+.conteudo-vid{
+    width: 249px;
+    display: grid;
+    grid-template: auto auto/ auto 197px;
+}
+    
