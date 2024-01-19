@@ -1,8 +1,16 @@
 *{
     font-family: 'Roboto', sans-serif;
 }
-#content{
+#content h1{
+    padding: 0 0 0 40px;
   
+}
+@media only screen and (min-width:640px){
+    section{
+        max-width: 640px;
+        margin: auto;
+
+    }
 }
 ol{
     display: grid;
@@ -27,20 +35,41 @@ li{
 
 .nome{
     grid-area: nome;
+    align-self: center;
 }
 .cod{
     grid-area: cod;
+    place-self: end;
 }
 .tipo1{
     grid-area: tipo1;
+    align-self: center;
+    
+    
+    
+    
 
 }
 .tipo2{
     grid-area: tipo2;
+    align-self: end;
+    
+    
 }
+.tipo1, .tipo2{
+    background-color: rgb(121, 223, 197);
+    border-radius: 10px;
+    
+    width: 70px;
+    text-align: center;
+    
+    
+    
+}
+
 .img{
     grid-area: img;
-    width: 100%;
+    width: 150%;
     height: 100%;
     object-fit: cover;
 }
