@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.icons{
+    width: 20px;
+}
+#info{
+    color: aliceblue;
+    padding: 30px 20px 0 20px;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 3fr;
+    grid-template-areas: "back like"
+    "nome id"
+    "tipo ."
+    "img img";
+    background-color: rgb(52, 172, 126);
+}
+
+#back{
+    grid-area: back;
+}
+#like{
+    grid-area: like;
+    justify-self: end;
+}
+.nome{
+    grid-area: nome;
+    font-weight: bold;
+    font-size: 2rem;
+    align-self: flex-end;
+}
+.id{
+    grid-area: id;
+    place-self: end;
+}
+.tipo{
+    grid-area: tipo;
+    
+    height: 30px;
+    gap: 5px;
+    padding: 5px 0 0 15px;
+    
+    
+}
+.tipo span{
+    background-color:rgb(114, 224, 182) ;
+    padding: 0 10px;
+    border-radius: 20px;
+    align-self: center;
+}
+.pokemon{
+    grid-area: img;
+    max-width: 100%;
+    
+    object-fit: contain;
+    justify-self: center;
+    align-self: flex-end;
+}
+
