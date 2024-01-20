@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+header{
+    color: white;
+    
+    height: 505px;
+    background-image:url("../images/Header Background.svg");
+    background-size: cover;
+    background-position: 70% 50% ;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 20px 0 40px;
+}
+header h1{
+    font-family: 'Luckiest Guy', cursive;
+    width: 278px;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 0 0 25px 0;
+
+}
+header p{
+    font-family: 'Open Sans', sans-serif;
+    width: 381px;
+    height: 132px;
+    padding: 0 0 20px 0;
+
+}
+#btn-header{
+   display: flex; 
+   flex-direction: column;
+   width:381px;
+   height:122px;
+   gap: 16px
+   
+
+}
+header button{
+    width: 381px;
+    height: 54px;
+    border-radius: 28px;
+    border: none;
+
+}   
+#preto{
+    color: white;
+    background-color: black;
+}
