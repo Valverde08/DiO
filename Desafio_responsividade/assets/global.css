@@ -11,11 +11,14 @@ header{
     height: 505px;
     background-image:url("../images/Header Background.svg");
     background-size: cover;
-    background-position: 70% 50% ;
+    background-position: 72% 50% ;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-    padding: 60px 20px 0 40px;
+    
+}
+#header{
+    margin: auto;
 }
 header h1{
     font-family: 'Luckiest Guy', cursive;
@@ -49,9 +52,13 @@ header button{
     height: 54px;
     border-radius: 28px;
     border: none;
+    cursor: pointer;
 
 }   
 #preto{
     color: white;
     background-color: black;
+}
+#first-section img{
+    
 }
