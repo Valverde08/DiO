@@ -135,3 +135,107 @@ header button{
     font-family: 'Open Sans', sans-serif;
 
 }
+#third-section{
+    
+    height:480px ;
+    display: flex;
+    flex-direction: column;
+    padding: 30px  24px 0 24px;
+    gap: 24px;
+    align-items: center;
+   
+   
+    
+    
+    
+
+
+}
+#third-section img{
+    width: 379px;
+    height: 252px;
+    
+}
+#third-section h2{
+    width: 370px;
+    height: 33px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0em;
+    
+    
+
+
+}
+
+#third-section p{
+    width: 378px;
+    height: 88px;
+    font-weight: 400;
+    line-height: 21.9px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+#fourth-section{
+    
+    height:480px ;
+    display: flex;
+    flex-direction: column;
+    padding: 30px  24px 0 24px;
+    
+    align-items: center;
+    background: #F6F6F6;
+    
+   
+   
+    
+    
+    
+
+
+}
+#fourth-section img{
+    width: 379px;
+    height: 252px;
+    
+    
+}
+#fourth-section h2{
+    width: 370px;
+    height: 33px;
+    font-family: 'Luckiest Guy', cursive;
+    
+    
+    line-height: 33px;
+    letter-spacing: 0em;
+
+    
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom:55px ;
+
+    
+    
+
+
+}
+
+#fourth-section p{
+    width: 378px;
+    height: 88px;
+    font-weight: 400;
+    line-height: 21.9px;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom:55px ;
+
+}
+footer img{
+    width: 100vw;
+    
+   
+}
