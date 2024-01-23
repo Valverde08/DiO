@@ -54,7 +54,8 @@ header button{
     cursor: pointer;
 
 }   
-#preto{
+
+#btn-preto{
     color: white;
     background-color: black;
 }
@@ -251,6 +252,55 @@ footer div {
     
    
 }
-@media screen and (min-width:616px) {
+@media screen and (min-width: 800px) {
+    #header{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        height: 459px;
+        
+        
+        
+
+        
+        
+    }
+    header h1{
+        width: 313px;
+        height: 111px;
+        font-size: 56px;
+        font-weight: 400;
+        line-height: 56px;
+        letter-spacing: 0em;
+        text-align: center;
+        align-self: center;
+        
+     
+     }
+    header p{
+       width: 757px;
+       text-align: center;
+       
     
+    }
+    #btn-header{
+        flex-direction: row;
+        width:552px;
+        align-self: center;
+        
+        
+        
+     
+     }
+     #btn-branco{
+        width: 205px;
+        height: 44px;
+        
+
+     }
+     #btn-preto{
+        width: 281px;
+        height: 44px;
+        
+     }
 }
