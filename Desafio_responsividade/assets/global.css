@@ -312,15 +312,15 @@ footer div {
         height: 394px;
         display: grid;
         grid-template: 1fr 1fr / 1fr 1fr;
-        grid-template-areas: "img h2"
-        "img p";
+        
         justify-items: center;
         justify-content: center;
+        gap: 0;
                 
         
      }
     #first-section img{
-        grid-area: img;
+        
         width: 607px;
         height: 394px;
         align-self:flex-end;
@@ -328,7 +328,7 @@ footer div {
         
     }
     #first-section h2{
-        grid-area: h2;
+        
         width: 329px;
         height: 270px;        
         font-size: 40px;
@@ -341,7 +341,7 @@ footer div {
     
     }
     #first-section p{
-        grid-area: p;
+        
         width: 348px;
         height: 88px;
         
@@ -352,6 +352,8 @@ footer div {
         text-align: left;
         justify-self: flex-start;
         align-self:flex-end;
+        grid-column-start: 2;
+        grid-column-end: span 1;
 
         
 
