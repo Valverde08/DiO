@@ -446,11 +446,38 @@ footer div {
 
      }
     #fourth-section{
-        height: 394px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
+        height: 774px;
+        
+        
     }
-    
+    #fourth-section h2{
+        width: 608px;
+        height: 80px;
+        
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: center;
+
+
+    }
+    #fourth-section p{
+        width: 802px;
+        height: 44px;
+        
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: center;
+
+
+    }
+    #fourth-section img{
+        width: 784px;
+        height: 508px;
+
+    }
     
 }
