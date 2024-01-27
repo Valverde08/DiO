@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Archivo', sans-serif;
+}
+
+/* Barra Navegação */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 50px;
+    background-color: #F4EEE9B2;
+    position: fixed;
+    top: 0;
+    width: 95%;
+    border-radius: 0px 0px 15px 15px ;
+    
+}
+header nav{
+    display: grid;
+    grid-template: auto/ repeat(4, auto);
+    gap: 20px;
+    place-content: center;
+    
+    
+}
+header span{
+    display: grid;
+    grid-template-columns: auto;
+    place-content: center;
+    width: 110px;
+    height: 30px;    
+    border-radius: 5px;
+    background-color: #2a4172;
+    color:rgba(255, 255, 255, 0.719);
+    
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 12px;
+    letter-spacing: 0.08em;
+    text-align: center;  
+       
+}
+
+header span a {
+    color:white ;
+    text-decoration: none;
+}
+
+/* Parte central Primeira Seção */
+
+#first-section{
+    
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+#img1-first-section{
+    background-color: #b6a241;
+    width: 533px;
+    height: 422px;
+}
