@@ -60,6 +60,45 @@ header span a {
 }
 #img1-first-section{
     background-color: #b6a241;
+    background-image: url("../images/ELEMENTOS_RAIZES-1-BEGE\ 1.png");
     width: 533px;
     height: 422px;
+    display: flex;
+    justify-content: center;
 }
+#img1-first-section img{
+    width: 235px;
+    width: 182px;
+    
+}
+
+#img2-first-section{
+   background-image: url(../images/pexels-marcus-aurelius-6787978\ 1.png);
+   background-size: cover;
+   width:716px;
+   
+   display: flex;
+   justify-content: center;
+   
+}
+#img2-first-section div{
+    width: 392px;
+    height: 127px;
+    
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 49px;
+    letter-spacing: 0.08em;
+    text-align: left;
+    color: white;
+    align-self: center;
+    text-wrap: wrap;
+
+}
+#text-img2{
+    display: flex;
+    flex-direction: column;
+}
+
+/* QUem somos */
+
