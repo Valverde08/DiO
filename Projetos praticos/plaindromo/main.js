@@ -1,23 +1,21 @@
-let frase = "agua"
-// let dividido = frase.split("")
-let revertido = frase.split("")
-
-console.log(frase.split())
-console.log(revertido.reverse()[1])
+let frase = "se fuder"
 
 
-
-// function checarPalavra(){
-//     if(dividido === dividido.reverse()){
-//         console.log("A sua frase é um palindromo ")
-//     } else{
-//         console.log("A frase não é um palindromo")
-//     }
-// }
+let dividido = frase.replace(/ /g, "")
+let divididores = dividido.split("")
 
 
+console.log(dividido) 
+console.log(divididores) 
 
-// for (let i = 0; i < dividido.length; i++) {
+
+let revertido = divididores.reverse()
+console.log(revertido) 
+
+for (let i = 0; i < divididores.length; i++) {
+    console.log(divididores[i])
     
-//     console.log(dividido[i])
-// }
+    
+}
+
+
