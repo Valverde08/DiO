@@ -1,5 +1,5 @@
 function verificarPalindromo(string){
-    if(!string) return;
+    if(!string) return
 
     return string.split("").reverse().join("") === string
     
