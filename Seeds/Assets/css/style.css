@@ -175,10 +175,12 @@ header span a {
 }
 
 #third-div1{
-    background-image: url(../images/BG-Prod2.png);
+    background-image: url(../images/Produto_BG-movel1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 #third-div2{
-    
+    background-image: url(../images/BG-Prod2.png);
 }
 
 
