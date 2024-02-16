@@ -159,17 +159,36 @@ header span a {
 }
 
 /* Nossos produtos */
-#third-section div{
+#third-section {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     gap: 15px;
 }
 #third-section h2{
-    padding: 0px 0px 0px 50px;
+    width: 184px;
+    height: 79px;              
+    color: #54160A;
+}
+hr{
+    border: 1px solid #54160A;
+    
+}
+#third-section h2 span{
+    display: flex;
+    
+}
+#third-section-main-div{
+    display: flex;
 }
 .std-div-3{
-    width: 613px;
+    width: 813px;
     height: 570px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
     
     
 }
@@ -180,8 +199,38 @@ header span a {
     background-repeat: no-repeat;
 }
 #third-div2{
-    background-image: url(../images/BG-Prod2.png);
+    background-image: url(../images/Produto_BG-movel1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+.renda{
+    display: flex;
+}
+.icon-renda{
+    width: 67.81px;
+    height: 86.75px;
+}
+.renda-f-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.renda-f{
+    
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:  #351E04;
+    
 
+}
+.renda-f-cont{
+    width: 568px;
+    height: 473px;
+
+
+}
 
 
