@@ -121,6 +121,7 @@ header span a {
     display: flex;
     justify-content: center;
     align-content: center;
+    /* position: relative; */
     
 }
 #quem-somos h2{
@@ -135,6 +136,8 @@ header span a {
     line-height: 54px;
     letter-spacing: 0.15em;
     color: #2a4172;
+    position: relative;
+    top: -59px;
     
 
     
@@ -145,6 +148,8 @@ header span a {
     flex-direction: column;
     gap: 10px;
     width: 612px;
+    position: relative;
+    top: 5px;
     
     
 }
@@ -165,10 +170,11 @@ header span a {
     justify-content: center;
     gap: 15px;
 }
-#third-section h2{
-    width: 184px;
+.nosso{
+    
     height: 79px;              
-    color: #54160A;
+    color: #2A4172;
+    padding-left: 50px;
 }
 hr{
     border: 1px solid #54160A;
@@ -177,19 +183,21 @@ hr{
 #third-section h2 span{
     display: flex;
     
+    
 }
 #third-section-main-div{
     display: flex;
+    justify-content: center;
 }
 .std-div-3{
-    width: 813px;
+    width: 650px;
     height: 570px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 20px;
-    padding-top: 100px;
+    gap: 25px;
+    padding-top: 70px;
     
     
 }
@@ -205,7 +213,22 @@ hr{
     background-repeat: no-repeat;
 }
 .renda{
+    
     display: flex;
+    align-self: baseline;
+    padding: 0px 0px 0px 20px;
+    position: relative;
+    left: 20px;
+    
+}
+.renda h2{
+    
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: 0.08em;
+    color:  #54160A;
+
 }
 .icon-renda{
     width: 67.81px;
@@ -234,4 +257,20 @@ hr{
 
 }
 
+/* Nossos gestores */
+
+.std-div-4{
+    width: 612px;
+    height: 279px;
+    background-color:#351E04 ;
+    color: white;
+    border-radius: 10px;
+    
+}
+#main-nosso-dir{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    
+}
 
