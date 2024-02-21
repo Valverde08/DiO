@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        p{
+            width: 500px
+        }
+    </style>
+    <title>Document</title>
+    
+</head>
+<body>
+    <h1>Number guessing game</h1>
+    <p>We have selected a random number between 1 and 100. See if you can guess it in 10 turns or fewer. We'll tell you if your guess was too high or too low.</p>
+    <form action="">
+        <label for="guess">Enter a guess:</label>
+        
+        <input type="text" name="guess" min="1" max="100" id="guess">
+        <input type="submit" value="Submit-guess" id="guessSub"> 
+    </form>
+
+    <div id="resultado">
+        <p id="guess"></p>
+        <p id="lastResult"></p>
+        <p id="lowOrhi"></p>
+    </div>
+
+    <script>
+        let randomNumber = Math.floor(Math.random() * 100) + 1
+
+        const res = document.querySelector("#resultado")
+
+        const lres = document.querySelector("#lastResult")
+
+
+        const lowOrhi = document.querySelector("#lowOrhi")
+
+        const guess =  document.querySelector("#guess")
+
+        const guessSub =  document.querySelector("#guessSub")
+
+        let guessCount = 1
+
+        let resetButton
+
+    </script>
+</body>
+</html>
