@@ -3,3 +3,7 @@ header{
     align-items: center;
     gap: 30px;
 }
+
+#first-section{
+    width: auto;
+}
