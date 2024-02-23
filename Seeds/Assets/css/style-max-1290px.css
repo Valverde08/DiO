@@ -6,7 +6,8 @@
     width:45%;
 }
 
-/* quem somos */
+/* nossos produtos */
+
 
 
 #third-section-main-div{
@@ -24,6 +25,18 @@
 #main-nosso-dir{
     flex-direction: column;
     align-items: center;
+   
     
+}
+
+#third-div1{
+    
+    background-size: cover;
+    width: 80%;
+    
+}
+#third-div2{
+    background-size: cover;
+    width: 80%;
 }
 
