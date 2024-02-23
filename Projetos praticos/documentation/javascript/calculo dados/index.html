@@ -18,12 +18,12 @@
 
         botao.addEventListener("click", ()=>{
             let valor = document.querySelector("#valor").value
-            
-            const div = document.createElement("div");
+
+            const div = document.createElement("p");
 
             let content = document.createTextNode("teste")
 
-            div.textContent = valor;
+            div.innerText = valor;
             document.body.appendChild(div) ;
         })
 
