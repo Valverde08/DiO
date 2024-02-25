@@ -29,7 +29,7 @@ header nav{
     grid-template: auto/ repeat(4, auto);
     gap: 20px;
     place-content: center;
-    padding-right: 30px;
+    padding-right: 45px;
     
     
 }
@@ -37,7 +37,7 @@ header span{
     display: grid;
     grid-template-columns: auto;
     place-content: center;
-    width: 110px;
+    width: 135px;
     height: 30px;    
     border-radius: 5px;
     background-color: #2a4172;
@@ -49,7 +49,8 @@ header span{
     letter-spacing: 0.08em;
     text-align: center;  
     z-index: 0;
-    padding: 0 12px;
+    
+    text-transform:uppercase; 
     
        
 }
@@ -174,7 +175,7 @@ header span a {
 #third-section {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    
     
     
 }
@@ -197,12 +198,13 @@ hr{
 
 #third-section-main-div{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    padding-right: 28px;
     
 }
 
 .std-div-3{
-    width: 48.5%;
+    width: 48%;
     height: 570px;
     display: flex;
     flex-direction: column;
@@ -220,15 +222,28 @@ hr{
     background-image: url(../images/BG-Prod1.png);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 48.5%;
+    /* width: 45%; */
     
+}
+#third-div1 h2{
+    align-self: flex-end;
+}
+#third-div1 img{
+    padding: 0 0 0 24px;
 }
 #third-div2{
     background-image: url(../images/BG-Prod2.png);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 48.5%;
+    /* width: 45%; */
     
+}
+#third-div2 h2{
+    align-self: flex-end;
+}
+#third-div2 img{
+    padding: 0 0 0 24px;
+    align-self:flex-end ;
 }
 .renda{
     
@@ -284,7 +299,7 @@ hr{
 }
 
 .std-div-4{
-    width: 44.8%;
+    width: 44.9%;
     background-color:#351E04 ;
     color: white;
     border-radius: 10px;
@@ -327,7 +342,7 @@ hr{
    
 }
 .std-div-4 a img{
-    width: 120px;
+    width: 100px;
 }
 
 
@@ -346,10 +361,11 @@ hr{
     background-repeat: no-repeat;
     background-size: contain;
     display: flex;
-    justify-content: center;
+    
     align-items: center;
     padding: 15px 0 0 110px;
-    gap: 25px;
+    gap: 120px;
+    
 
 }
 #contato div{
@@ -366,6 +382,7 @@ hr{
     gap: 15px;
     position: relative;
     top: -40px;
+    
 
 
 
