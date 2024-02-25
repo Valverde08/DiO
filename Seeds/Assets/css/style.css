@@ -29,6 +29,7 @@ header nav{
     grid-template: auto/ repeat(4, auto);
     gap: 20px;
     place-content: center;
+    padding-right: 30px;
     
     
 }
@@ -48,6 +49,8 @@ header span{
     letter-spacing: 0.08em;
     text-align: center;  
     z-index: 0;
+    padding: 0 12px;
+    
        
 }
 
@@ -60,19 +63,16 @@ header span a {
 
 #first-section{
     display: flex;
-    justify-content: center;
-    
-    
-    
-    
+    justify-content: center;       
     padding: 150px 0 100px 0;
+    
 }
 #img1-first-section{
     background-color: #b6a241;
     background-image: url("../images/ELEMENTOS_RAIZES-1-BEGE\ 1.png");
     background-size: 110%;
     background-repeat: no-repeat;
-    width: 533px;
+    width: 36%;
     height: 422px;
     display: flex;
     justify-content: center;
@@ -87,7 +87,7 @@ header span a {
 #img2-first-section{
    background-image: url("../images/pexels-marcus-aurelius-6787978\ 1\ \(1\).svg");
    background-size: cover;
-   width:716px;
+   width:57%;
    
    display: flex;
    justify-content: center;
@@ -185,6 +185,7 @@ header span a {
     padding-left: 50px;
 }
 hr{
+    width: 90%;
     border: 1px solid #54160A;
     
 }
@@ -201,7 +202,7 @@ hr{
 }
 
 .std-div-3{
-    width: 650px;
+    width: 48.5%;
     height: 570px;
     display: flex;
     flex-direction: column;
@@ -217,23 +218,24 @@ hr{
 
 #third-div1{
     background-image: url(../images/BG-Prod1.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    width: 48.5%;
     
 }
 #third-div2{
     background-image: url(../images/BG-Prod2.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    width: 48.5%;
+    
 }
 .renda{
     
     display: flex;
     align-self: baseline;
-    padding: 0px 0px 0px 20px;
-    position: relative;
+    padding: 24px 0px 0px 64px;
     
-    left: 20px;
     
 }
 .renda h2{
@@ -253,6 +255,10 @@ hr{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    padding: 24x 0px 0px 24px;
+    width: 80%;
+    height: 473px;
+
 }
 .renda-f{
     
@@ -265,12 +271,7 @@ hr{
     
 
 }
-.renda-f-cont{
-    width: 568px;
-    height: 473px;
 
-
-}
 
 /* Nossos gestores */
 #fourth-section{
@@ -283,8 +284,7 @@ hr{
 }
 
 .std-div-4{
-    width: 612px;
-    height: 279px;
+    width: 44.8%;
     background-color:#351E04 ;
     color: white;
     border-radius: 10px;
@@ -301,10 +301,12 @@ hr{
     align-self: center;
     text-align: left;
     color: #F4EEE9;
+    
+    padding: 24px 0;
 
 }
 .std-div-4 h2{
-    padding-left: 45px;
+    padding: 24px 0 0 44px;
     width: 394px;
     height: 31px;
     font-family: "Noto Serif", serif;
@@ -312,14 +314,20 @@ hr{
     font-weight: 800;
     line-height: 31px;
     letter-spacing: 0em;
-    text-align: left;
+
     color: #F4EEE9;
+    
 
 
 }
 .std-div-4 a {
-    padding: 25px 0 0 46px;
+    padding: 25px 0 24px 46px;
     margin: 0 0 10px 0 ;
+    
+   
+}
+.std-div-4 a img{
+    width: 120px;
 }
 
 
@@ -338,7 +346,7 @@ hr{
     background-repeat: no-repeat;
     background-size: contain;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
     padding: 15px 0 0 110px;
     gap: 25px;
