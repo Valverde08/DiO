@@ -1,0 +1,34 @@
+
+#quem-somos div {
+    
+    width: 95%;
+}
+
+
+
+
+.std-div-4 {
+    
+    width: 85%;
+}
+
+#main-nosso-dir {
+    align-items: center;
+    flex-direction: column;
+    
+   
+}
+
+
+#contato div {
+    font-size: 10px;
+    gap: 1px;
+}
+
+
+#contato img {
+    position: relative;
+    top: -52px;
+    width: 109px;
+    height: 46px;
+}
