@@ -1,4 +1,10 @@
 
+#img2-first-section {
+    
+    
+    background-position: center;
+   
+}
 #quem-somos div {
     
     width: 95%;
@@ -31,4 +37,9 @@
     top: -52px;
     width: 109px;
     height: 46px;
+}
+
+footer aside p {
+    font-size: 8px;
+    padding-top: 15px;
 }
