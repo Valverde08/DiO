@@ -59,6 +59,9 @@ header span a {
     color:white ;
     text-decoration: none;
 }
+#cont-mobile{
+    display: none;
+}
 
 /* Parte central Primeira Seção */
 
@@ -186,7 +189,7 @@ header span a {
     padding-left: 50px;
 }
 hr{
-    width: 90%;
+    width: 95%;
     border: 1px solid #54160A;
     
 }
@@ -288,6 +291,14 @@ hr{
 }
 
 
+#third-div2 img {
+    top: 11px;
+    padding: 0px 24px 0 24px;
+    
+    position: relative;
+}
+
+
 /* Nossos gestores */
 #fourth-section{
     padding-top: 40px;
@@ -299,12 +310,13 @@ hr{
 }
 
 .std-div-4{
-    width: 44.9%;
+    width: 44.7%;
     background-color:#351E04 ;
     color: white;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    margin-right: 7px;
     
     justify-content: space-evenly;
     
@@ -318,6 +330,7 @@ hr{
     color: #F4EEE9;
     
     padding: 24px 0;
+    position: relative;
 
 }
 .std-div-4 h2{
@@ -331,6 +344,7 @@ hr{
     letter-spacing: 0em;
 
     color: #F4EEE9;
+    position: relative;
     
 
 
@@ -338,6 +352,7 @@ hr{
 .std-div-4 a {
     padding: 25px 0 24px 46px;
     margin: 0 0 10px 0 ;
+    position: relative;
     
    
 }

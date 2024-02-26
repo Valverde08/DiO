@@ -1,4 +1,7 @@
-
+/* first section */
+#first-section {
+    margin-left: 11px;
+}
 
 
 /* QUem somos  */
@@ -23,4 +26,31 @@
 }
 #quem-somos div{
     align-self: center;
+}
+
+/* third section */
+
+.std-div-3 {
+    width: 48.7%;
+}
+
+/* fourth-section */
+.std-div-4 {
+    width: 43.5%;
+    margin-left: 12px;
+}
+
+.std-div-4 p {
+    padding: 24px 24px 54px 46px;
+}
+/* contat#o */
+
+#contato {
+    gap: 47px;
+    height: 178px;
+}
+
+#contato img {
+    width: 200px;
+    height: 100px;
 }

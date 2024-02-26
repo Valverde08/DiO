@@ -1,0 +1,28 @@
+#quem-somos h2 {
+    
+    background-size: 53%;
+    
+}
+
+#third-section-main-div {
+    flex-direction: column;
+    
+    align-items: center;
+}
+.std-div-3 {
+    width: 90%;
+}
+
+
+.std-div-4 p {
+    
+    height: auto;
+}
+#quem-somos div {
+
+    align-self: flex-start;
+}
+
+.std-div-4 h2 {
+    font-size: 21px;
+}

@@ -1,4 +1,25 @@
 
+/* first section */
+#first-section {
+    margin-left: 4px;
+
+}
+
+#img1-first-section {
+
+    width: 35.3%;
+}
+
+#img2-first-section {
+
+    width: 57.5%;
+}
+
+
+/* quem somos */
+#quem-somos div{
+    padding-right: 43px;
+}
 
 /* nossos produtos */
 
@@ -6,14 +27,15 @@
 
 #third-section-main-div{
     
-    align-items:center ;
-    flex-direction: column;
+   margin-left: 3px;
+    
     
     
 }
-.std-div-3{
+/* .std-div-3{
     
     align-items: center;
+    padding-left: 9px;
     
 }
 #main-nosso-dir{
@@ -26,11 +48,26 @@
 #third-div1{
     
     background-size: cover;
-    width: 80%;
+    width: 100%;
     
 }
 #third-div2{
     background-size: cover;
-    width: 80%;
+    width: 100%;
+}
+.renda{
+    padding: 68px 0px 0px 121px;
+} */
+
+/* Nossos Gestores */
+.std-div-4 {
+    width: 44.2%;
+    margin-left: 7px;
+}
+
+.std-div-4 p {
+
+    padding: 24px 24px 24px 46px;
+    width: auto;
 }
 

@@ -1,0 +1,108 @@
+
+/* header */
+
+header span {
+    font-size: 9px;
+    width: 97px;
+}
+
+/* first-section */
+#cont-mobile{
+    display: block;
+    
+    background-color: #B6A241;
+    
+    display: flex;
+    flex-direction: column;
+    padding: 19px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0.08em;
+    text-align: left;
+    color: white;
+    align-self: center;
+    text-wrap: wrap;
+    text-shadow: 1px 1px 1px black;
+    border-radius: 5px 0 0 0 ;
+}
+#text-img2{
+    display: none;
+}
+
+#img1-first-section {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color: transparent;
+    width: 200px;
+    background-size: 100% 100%;
+   
+    
+}
+#img1-first-section img {
+    width: 100px;
+    padding: 71px 30px 0 50px;
+   
+    
+   
+    
+}
+#img2-first-section{
+    
+}
+
+/* Quem somos */
+
+#quem-somos div {
+    
+    padding-left: 24px;
+}
+
+/* third-section */
+.renda h2 {
+    font-size: 25px;
+    line-height: 25px;
+    
+}
+
+#third-div2 img {
+    top: 11px;
+    padding: 0px 24px 0 24px;
+    
+    position: relative;
+}
+
+/* fourth section */
+.std-div-4 h2 {
+    font-size: 23px;
+}
+
+.std-div-4 p {
+    padding: 22px 24px 25px 46px;
+    font-size: 12px;
+}
+
+
+
+
+/* contato */
+
+
+#contato {
+    gap: 21px;
+    height: 167px;
+}
+
+
+#contato {
+    gap: 21px;
+    height: 167px;
+}
+
+/* footer */
+
+footer aside p {
+    font-size: 10px;
+}

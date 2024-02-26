@@ -1,6 +1,71 @@
+/* quem somos */
+#quem-somos h2 {
+    
+    font-size: 58px;
+  
+}
+
+#quem-somos div p {
+    font-size: 18px;
+   
+}
+#quem-somos div {
+    
+    width: 735px;
+    
+}
+
+/* nossos produtos */
+#third-section-main-div {
+    
+    width: 100%;
+}
+.renda h2 {
+    font-size: 50px;
+    
+}
+.renda-f {
+    font-size: 18px;
+    
+}
+.renda {
+    
+    padding: 24px 0px 0px 67px;
+}
+
 /* nossos Gestores */
 .std-div-4 p{
+    
+        
+    padding: 44px 0 44px 44px;
+    font-size: 18px;
     align-self: flex-start;
-    padding-left: 44px;
+    
 
+}
+.std-div-4 h2 {
+    padding: 24px 0 0 44px;
+}
+.std-div-4 a {
+    padding: 25px 0 24px 44px;
+    
+}
+/* contato */
+#contato div {
+    
+    font-size: 21px;
+   
+    gap: 17px;
+   
+}
+#contato img {
+    width: 252px;
+    height: 124px;
+}
+
+/* footer */
+
+footer aside p {
+    
+    font-size: 18px;
 }
