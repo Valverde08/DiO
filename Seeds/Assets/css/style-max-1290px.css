@@ -1,23 +1,33 @@
-/* navegação  */
+
 header picture img {
-    padding-left: 46px;
+    padding-left: 43px;
 }
 
 header nav {
-    display: flex;
-    gap: 20px;
-    padding-right: 57px;
-}
-
-
-/* Nossos diretores */
-
-#main-nosso-dir {
+    
+    padding-right: 59px;
    
-    margin-left: 6px;
 }
+
+
+.renda {
+    
+    padding: 24px 0px 0px 56px;
+}
+
+
+.renda-f-top{
+    height:70px;
+}
+.renda-f-mid{
+
+    height: 130px;
+}
+
 
 .std-div-4 p {
-    width: 473px;
+    width: 83%;
+    
+    padding: 20px 0 46px;
     
 }

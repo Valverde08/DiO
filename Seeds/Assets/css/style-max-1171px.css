@@ -1,56 +1,35 @@
-/* first section */
-#first-section {
-    margin-left: 11px;
+header picture img {
+    padding-left: 35px;
+}
+
+header nav {
+    padding-right: 52px;
 }
 
 
-/* QUem somos  */
-
-#quem-somos{
-    background: none;
-    flex-direction: column;
-    justify-content: flex-start;
-}
-
-#quem-somos h2{
-    background-image: url("../images/quem\ fundomobile.svg");
-    background-size: 35%;
-    align-self: flex-start;
-    width: 100%;    
-    height: 45px;    
-    font-size: 15px;
-    font-weight: 800;
-    line-height: 16px;
-    letter-spacing: 0.08em;   
+#quem-somos h2 {
+    width: 40%;
     
 }
-#quem-somos div{
-    align-self: center;
-}
 
-/* third section */
 
 .std-div-3 {
-    width: 48.7%;
+
+    width: 49%;
+    
 }
 
-/* fourth-section */
-.std-div-4 {
-    width: 43.5%;
-    margin-left: 12px;
+.renda {
+    padding: 24px 0px 0px 46px;
 }
+
+.nosso {
+    
+    padding-left: 38px;
+}
+
 
 .std-div-4 p {
-    padding: 24px 24px 54px 46px;
-}
-/* contat#o */
-
-#contato {
-    gap: 47px;
-    height: 178px;
-}
-
-#contato img {
-    width: 200px;
-    height: 100px;
+    width: 80%;
+    padding: 21px 0 99px;
 }
