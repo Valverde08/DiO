@@ -12,3 +12,19 @@ header span {
 
 }
 
+#quem-somos {
+    background-image: none;
+}
+
+#quem-somos h2 {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+
+    background-image: url(../images/quem\ fundo.svg);
+    background-repeat: no-repeat;
+
+   
+}
