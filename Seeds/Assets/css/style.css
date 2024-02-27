@@ -11,20 +11,18 @@
 
 /* Barra Navegação */
 
-header{
+header {
     display: flex;
     justify-content: space-between;
-    padding: 25px 50px 25px 50px;
+    padding: 25px 0px 25px 0px;
     background-color: #F4EEE9B2;
-    
     position: fixed;
     top: 0;
-    width: 95vw;
-    border-radius: 0px 0px 15px 15px ;
+    width: 100vw;
+    border-radius: 0px 0px 15px 15px;
     z-index: 1;
-    
 }
-header nav{
+/* header nav{
     display: grid;
     grid-template: auto/ repeat(4, auto);
     gap: 20px;
@@ -32,6 +30,15 @@ header nav{
     padding-right: 45px;
     
     
+} */
+header picture img {
+    padding-left: 50px;
+}
+header nav {
+    display: flex;
+    gap: 20px;
+    padding-right: 64px;
+    align-items: center;
 }
 header span{
     display: grid;
@@ -142,7 +149,7 @@ header span a {
     align-items: center;
     justify-content: center;
     
-    font-size: 50px;
+    font-size: 3.125rem;
     font-weight: 700;
     line-height: 54px;
     color: #2a4172;
@@ -166,7 +173,7 @@ header span a {
 }
 #quem-somos div p{
     
-    font-size: 15px;
+    font-size: 0.938rem;
     font-weight: 500;
     line-height: 17px;
     letter-spacing: 0.05em;
@@ -178,9 +185,7 @@ header span a {
 #third-section {
     display: flex;
     flex-direction: column;
-    
-    
-    
+    height: 700px;
 }
 .nosso{
     
@@ -206,7 +211,7 @@ hr{
     
 }
 
-.std-div-3{
+.std-div-3 {
     width: 48%;
     height: 570px;
     display: flex;
@@ -214,10 +219,8 @@ hr{
     align-items: center;
     justify-content: center;
     gap: 25px;
-    padding-top: 50px;
-    
+    padding-top: 40px;
     padding-bottom: 50px;
-    
     
 }
 
@@ -228,11 +231,22 @@ hr{
     /* width: 45%; */
     
 }
+#third-div1 p {    
+    
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
 #third-div1 h2{
     align-self: flex-end;
 }
-#third-div1 img{
+#third-div1 img {
     padding: 0 0 0 24px;
+    width: 70px;
+    height: 90px;
 }
 #third-div2{
     background-image: url(../images/BG-Prod2.png);
@@ -244,9 +258,19 @@ hr{
 #third-div2 h2{
     align-self: flex-end;
 }
-#third-div2 img{
-    padding: 0 0 0 24px;
-    align-self:flex-end ;
+#third-div2 p {    
+    
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+#third-div2 img {
+    
+    padding: 0px 24px 0 24px;
+    
 }
 .renda{
     
@@ -258,17 +282,14 @@ hr{
 }
 .renda h2{
     
-    font-size: 45px;
+    font-size: 2.813rem;
     font-weight: 800;
     line-height: 40px;
     letter-spacing: 0.08em;
     color:  #54160A;
 
 }
-.icon-renda{
-    width: 67.81px;
-    height: 86.75px;
-}
+
 .renda-f-cont{
     display: flex;
     flex-direction: column;
@@ -280,7 +301,7 @@ hr{
 }
 .renda-f{
     
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 500;
     line-height: 14px;
     letter-spacing: 0em;
@@ -291,12 +312,6 @@ hr{
 }
 
 
-#third-div2 img {
-    top: 11px;
-    padding: 0px 24px 0 24px;
-    
-    position: relative;
-}
 
 
 /* Nossos gestores */
@@ -322,23 +337,23 @@ hr{
     
     
 }
-.std-div-4 p{
-    width: 521px;
+.std-div-4 p {
+    width: 86%;
+    /* width: 521px; */
     height: 136px;
     align-self: center;
     text-align: left;
     color: #F4EEE9;
-    
-    padding: 24px 0;
+    font-size: 1rem;
+    padding: 20px 0 31px;
     position: relative;
-
 }
 .std-div-4 h2{
     padding: 24px 0 0 44px;
     width: 394px;
     height: 31px;
     font-family: "Noto Serif", serif;
-    font-size: 35px;
+    font-size: 2.188rem;
     font-weight: 800;
     line-height: 31px;
     letter-spacing: 0em;
@@ -350,22 +365,19 @@ hr{
 
 }
 .std-div-4 a {
-    padding: 25px 0 24px 46px;
-    margin: 0 0 10px 0 ;
-    position: relative;
-    
-   
+    padding: 0px 0 24px 45px;
+    margin: 0 0 10px 0;
+    /* position: relative; */
 }
 .std-div-4 a img{
     width: 100px;
 }
 
 
-#main-nosso-dir{
+#main-nosso-dir {
     display: flex;
-    justify-content: center;
-    gap: 45px;
-    
+    justify-content: space-evenly;
+    /* gap: 33px; */
 }
 
 /* contato */
