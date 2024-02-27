@@ -14,17 +14,63 @@ header span {
 
 #quem-somos {
     background-image: none;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
 }
 
 #quem-somos h2 {
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-
-    background-image: url(../images/quem\ fundo.svg);
+    width: 100vw;
+    background-image: url(../images/quem\ fundomobile.svg);
     background-repeat: no-repeat;
+    background-size: 100% 132%;
+    
+}
 
-   
+#third-div2 img {
+    padding: 0px 24px 0 24px;
+    width: 75px;
+    height: 90px;
+    position: relative;
+    top: 10px;
+}
+
+
+.std-div-4 h2 {
+    
+    font-size: 1.75rem;
+    
+}
+
+
+
+.std-div-4 h2 {
+    padding: 24px 0 0 44px;
+    width: 394px;
+    height: 31px;
+    font-family: "Noto Serif", serif;
+    font-size: 1.75rem;
+    font-weight: 800;
+    line-height: 31px;
+    letter-spacing: 0em;
+    color: #F4EEE9;
+    position: relative;
+}
+
+
+.std-div-4 p {
+    width: 77%;
+    padding: 21px 0 133px;
+}
+
+
+.renda h2 {
+    font-size: 1.813rem;
+    font-weight: 800;
+    line-height: 30px;
+    letter-spacing: 0.08em;
+    color: #54160A;
+}
+.renda {
+    padding: 29px 0px 0px 46px;
 }
