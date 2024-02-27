@@ -1,0 +1,52 @@
+header picture img {
+    padding-left: 66px;
+}
+
+header nav {
+    padding-right: 84px;
+}
+
+
+
+#quem-somos div p {
+    font-size: 1.2rem;
+  
+}
+
+
+.renda {
+    padding: 24px 0px 0px 87px;
+}
+
+#third-div1 p {
+    font-size: 1.2rem;
+}
+
+
+.std-div-4 p {
+    font-size: 1.2rem;
+    width: 89%;
+}
+
+
+#contato {
+    
+    gap: 15%;
+}
+
+#contato div {
+    width: 40%;
+   
+    font-size: 23px;
+   
+}
+
+
+#contato img {
+    width: 15%;
+    height: 116px;
+}
+
+footer aside {
+    font-size: 1.2rem;
+}
