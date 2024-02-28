@@ -24,3 +24,13 @@
 
     background-size: 100% 57%;
 }
+.std-div-4 {
+    width: 85%;
+}
+
+#main-nosso-dir {
+    gap: 24px;
+    flex-direction: column;
+    align-items: center;
+    /* width: 99%; */
+}
