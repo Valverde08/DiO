@@ -1,45 +1,26 @@
-
-#img2-first-section {
-    
-    
-    background-position: center;
-   
-}
 #quem-somos div {
-    
-    width: 95%;
+    width: 90%;
 }
 
-
-
-
-.std-div-4 {
-    
-    width: 85%;
+.renda {
+    padding: 29px 0px 0px 10%;
 }
 
 #main-nosso-dir {
-    align-items: center;
-    flex-direction: column;
+    gap: 24px;
     
-   
 }
 
 
-#contato div {
-    font-size: 10px;
-    gap: 1px;
+.std-div-4 p {
+    width: 80%;
+    padding: 21px 0 130px;
+    font-size: 17px;
 }
 
+#contato {
+    gap: 21px;
+    height: 123px;
 
-#contato img {
-    position: relative;
-    top: -52px;
-    width: 109px;
-    height: 46px;
-}
-
-footer aside p {
-    font-size: 8px;
-    padding-top: 15px;
+    background-size: 100% 57%;
 }

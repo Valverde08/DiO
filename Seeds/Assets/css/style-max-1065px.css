@@ -26,15 +26,17 @@ header span {
     background-size: 100% 132%;
     
 }
-
 #third-div2 img {
     padding: 0px 24px 0 24px;
     width: 75px;
-    height: 90px;
+    height: 77px;
     position: relative;
-    top: 10px;
+    /* top: 7px; */
 }
 
+.renda-f-mid{
+    height: 164px;
+}
 
 .std-div-4 h2 {
     
