@@ -37,7 +37,7 @@ header picture img {
 header nav {
     display: flex;
     gap: 20px;
-    padding-right: 64px;
+    padding-right: 66px;
     align-items: center;
 }
 header span{
@@ -50,7 +50,7 @@ header span{
     background-color: #2a4172;
     color:rgba(255, 255, 255, 0.719);
     
-    font-size: 14px;
+    font-size: 0.9rem;
     font-weight: 800;
     line-height: 12px;
     letter-spacing: 0.08em;
@@ -182,19 +182,25 @@ header span a {
 }
 
 /* Nossos produtos */
-#third-section {
+/* #third-section {
     display: flex;
     flex-direction: column;
     height: 700px;
+} */
+#third-section {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
 }
 .nosso{
     
     height: 79px;              
     color: #2A4172;
     padding-left: 50px;
+    font-family: "Noto Serif", serif;
 }
 hr{
-    width: 95%;
+    width: 97%;
     border: 1px solid #54160A;
     
 }
@@ -211,9 +217,9 @@ hr{
     
 }
 
-.std-div-3 {
+/* .std-div-3 {
     width: 48%;
-    height: 570px;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -222,6 +228,19 @@ hr{
     padding-top: 40px;
     padding-bottom: 50px;
     
+} */
+
+.std-div-3 {
+    width: 48%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    height: 740px;
 }
 
 #third-div1{
@@ -233,13 +252,14 @@ hr{
 }
 #third-div1 p {    
     
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 500;
-    line-height: 14px;
+    line-height: 20px;
     letter-spacing: 0em;
     text-align: left;
 
 }
+
 
 #third-div1 h3 {    
     
@@ -266,9 +286,9 @@ hr{
 }
 #third-div2 p {    
     
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 500;
-    line-height: 14px;
+    line-height: 20px;
     letter-spacing: 0em;
     text-align: left;
 
@@ -332,6 +352,8 @@ hr{
 
 
 
+
+
 /* Nossos gestores */
 #fourth-section {
     padding-top: 40px;
@@ -349,22 +371,37 @@ hr{
     display: flex;
     flex-direction: column;
     /* margin-right: 7px; */
+    gap: 28px;
+
     
     justify-content: space-evenly;
     
     
 }
-.std-div-4 p {
+/* .std-div-4 p {
     width: 86%;
-    /* width: 521px; */
+    
     height: 136px;
     align-self: center;
     text-align: left;
     color: #F4EEE9;
     font-size: 1rem;
-    padding: 20px 0 31px;
+    padding: 2px 0 1px;
+    position: relative;
+} */
+
+.std-div-4 p {
+    width: 86%;
+    height: 136px;
+    align-self: center;
+    text-align: left;
+    color: #F4EEE9;
+    font-size: 1.04rem;
+    padding: 2px 0 1px;
     position: relative;
 }
+
+
 .std-div-4 h2{
     padding: 24px 0 0 44px;
     width: 394px;
@@ -403,7 +440,7 @@ hr{
     height: 250px;
     background-image: url(../images/Contato.svg); 
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100%;
     display: flex;
     
     align-items: center;

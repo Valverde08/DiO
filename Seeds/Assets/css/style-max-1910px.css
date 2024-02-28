@@ -18,17 +18,41 @@ header nav {
     padding: 24px 0px 0px 87px;
 }
 
-/* #third-div1 p {
-    font-size: 1.4rem;
-} */
 
+.renda-f-cont {
+    
+    gap: 24px;
+   
+}
+
+#third-div1 p {
+    line-height: 20px;
+}
+
+#third-div2 p {
+    line-height: 20px;
+}
+
+.sep-h3 p{
+
+    padding-top: 8px;
+
+}
+.nosso {
+    padding-left: 66px;
+}
 
 .std-div-4 p {
     font-size: 1.4rem;
     width: 89%;
+    padding: 20px 0 104px;
 }
-
-
+#fourth-section {
+    margin: 0 0 100px 0;
+}
+#fourth-section h2{
+    padding-top: 62px;
+}
 
 
 #contato {
@@ -51,4 +75,11 @@ header nav {
 
 footer aside {
     font-size: 1.2rem;
+}
+
+
+.std-div-3 {
+    
+    height: 621px;
+    
 }

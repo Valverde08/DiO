@@ -9,7 +9,24 @@ header nav {
    
 }
 
+#quem-somos div {
+    
+    width: 64%;
+    
+}
 
+#quem-somos div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 64%;
+    top: 5px;
+}
+
+#quem-somos div p {
+    font-size: 1rem;
+    
+}
 .renda {
     
     padding: 24px 0px 0px 56px;

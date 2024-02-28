@@ -1,5 +1,27 @@
+header nav {
+    padding-right: 10px;
+}
+
 #quem-somos div {
     width: 90%;
+}
+
+#quem-somos h2 {
+   
+    margin-top: 50px;
+    
+}
+
+#quem-somos {
+    
+    margin-bottom: 24px;
+}
+
+.std-div-3 {
+    
+    height: 700px;
+    
+
 }
 
 .renda {
@@ -23,6 +45,7 @@
     height: 123px;
 
     background-size: 100% 57%;
+    padding: 0px;
 }
 .std-div-4 {
     width: 85%;
