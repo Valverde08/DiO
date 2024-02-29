@@ -47,6 +47,7 @@ header span {
 
 #quem-somos {
     margin-bottom: 46px;
+    padding-top: 80px;
 }
 
 #quem-somos h2 {
@@ -55,7 +56,7 @@ header span {
 }
 
 .std-div-3 {
-    height: 870px;
+    height: 940px;
 }
 .std-div-4 p {
     width: 78%;
@@ -66,7 +67,7 @@ header span {
 
 .std-div-4 p {
     width: 72%;
-    padding: 0px 0 254px;
+    padding: 0px 0 299px;
     font-size: 17px;
 }
 

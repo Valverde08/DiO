@@ -9,3 +9,13 @@
     width: 81%;
     padding: 0px 0 86px;
 }
+#contato img {
+    width: 179px;
+    height: 116px;
+    padding-bottom: 72px;
+}
+
+#contato {
+   
+    gap: 80px;
+}

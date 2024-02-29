@@ -30,17 +30,18 @@ header span {
 }
 
 .std-div-4 h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
+
 .std-div-4 p {
     width: 78%;
-    padding: 0px 0 154px;
+    padding: 0px 0 184px;
     font-size: 17px;
 }
 
 
 .std-div-3 {
-    height: 760px;
+    height: 860px;
 }
 
 

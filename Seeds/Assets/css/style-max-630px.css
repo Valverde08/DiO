@@ -1,0 +1,16 @@
+.std-div-4 {
+    width: 85%;
+}
+
+#main-nosso-dir {
+    gap: 24px;
+    flex-direction: column;
+    align-items: center;
+    /* width: 99%; */
+}
+
+.std-div-4 p {
+    width: 80%;
+    padding: 21px 0 130px;
+    font-size: 17px;
+}

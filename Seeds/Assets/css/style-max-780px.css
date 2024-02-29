@@ -5,6 +5,11 @@ header span {
     font-size: 11px;
     width: 101px;
 }
+header {
+    
+    padding: 3px 0px 25px 0px;
+    
+}
 
 /* first-section */
 #cont-mobile{
@@ -129,6 +134,7 @@ header span {
     padding: 2px 0 189px;
     font-size: 16px;
 }
+
 
 
 
