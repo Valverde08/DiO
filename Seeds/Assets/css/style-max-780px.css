@@ -62,7 +62,13 @@ header span {
     margin-top: 50px;
     height: auto;
     font-size: 2.125rem;
+    background-size: 100% 174%;
 }
+#quem-somos{
+    
+    height: fit-content;
+}
+
 
 /* third-section */
 

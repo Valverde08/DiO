@@ -200,7 +200,7 @@ header span a {
     font-family: "Noto Serif", serif;
 }
 hr{
-    width: 97%;
+    width: 98%;
     border: 1px solid #54160A;
     
 }
@@ -210,11 +210,17 @@ hr{
     
 }
 
-#third-section-main-div{
+/* #third-section-main-div{
     display: flex;
     justify-content: space-evenly;
     padding-right: 28px;
     
+} */
+#third-section-main-div {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 49px;
+    padding-left: 12px;
 }
 
 /* .std-div-3 {

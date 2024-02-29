@@ -37,7 +37,10 @@ header nav {
 #third-div2 p {
     line-height: 20px;
 }
-
+#third-section-main-div {
+    padding-right: 58px;
+    padding-left: 19px;
+}
 #quem-somos div p {
     font-size: 1rem;
    
@@ -59,10 +62,7 @@ header nav {
 }
 
 
-#third-section-main-div {
-    
-    padding-right: 0px;
-}
+
 
 
 
