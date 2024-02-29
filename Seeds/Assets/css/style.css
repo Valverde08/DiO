@@ -219,8 +219,8 @@ hr{
 #third-section-main-div {
     display: flex;
     justify-content: space-between;
-    padding-right: 49px;
-    padding-left: 12px;
+    padding-right: 48px;
+    padding-left: 8px;
 }
 
 /* .std-div-3 {
@@ -403,7 +403,7 @@ hr{
     text-align: left;
     color: #F4EEE9;
     font-size: 1.04rem;
-    padding: 2px 0 1px;
+    padding: 2px 0 34px;
     position: relative;
 }
 

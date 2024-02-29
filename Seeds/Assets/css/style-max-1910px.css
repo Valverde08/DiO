@@ -45,7 +45,7 @@ header nav {
 .std-div-4 p {
     font-size: 1.4rem;
     width: 89%;
-    padding: 20px 0 104px;
+    padding: 12px 0 87px;
 }
 #fourth-section {
     margin: 0 0 100px 0;
@@ -84,6 +84,11 @@ footer aside {
     
 }
 #third-section-main-div {
-    padding-right: 26px;
+    padding-right: 67px;
     padding-left: 26px;
+}
+
+
+.std-div-4 a img {
+    width: 130px;
 }

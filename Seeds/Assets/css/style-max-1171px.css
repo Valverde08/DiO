@@ -35,9 +35,23 @@ header nav {
 
 .std-div-4 p {
     width: 80%;
-    padding: 21px 0 99px;
+    padding: 0px 0 85px;
 }
 #third-section-main-div {
     padding-right: 34px;
     padding-left: 0px;
+}
+
+
+
+#contato {
+    
+    display: flex;
+    align-items: center;
+    padding: 0px 0 0 110px;
+    gap: 59px;
+}
+#contato img {
+    width: 21%;
+    height: 42%;
 }

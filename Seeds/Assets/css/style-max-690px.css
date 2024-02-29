@@ -1,34 +1,23 @@
-header {
-    flex-direction: column;
-    align-items: center;
-    gap: 5px;
-}
-
-#quem-somos h2 {
-    
-    background-size: 53%;
-    
-}
-
-#third-section-main-div {
-    flex-direction: column;
-    
-    align-items: center;
-}
 .std-div-3 {
-    width: 90%;
-}
-
-
-.std-div-4 p {
-    
-    height: auto;
-}
-#quem-somos div {
-
-    align-self: flex-start;
-}
+    height: 707px;
+}   
 
 .std-div-4 h2 {
-    font-size: 21px;
+    font-size: 20px;
+}
+
+.std-div-4 p {
+    width: 70%;
+    padding: 2px 0 276px;
+    
+}
+
+
+.renda {
+    padding: 29px 0px 0px 62px;
+}
+
+
+footer aside p {
+    font-size: 14px;
 }
