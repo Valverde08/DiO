@@ -1,15 +1,62 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 16px 0px;
+    
+    
+    
+    border-radius: 0px 0px 15px 15px;
+    
+}
+
+header picture img {
+    padding-left: 0px;
+    width: 100px;
+}
+header nav {
+    
+    padding-right: 0px;
+    align-items: center;
+}
+header span {
+    font-size: 7px;
+    width: 64px;
+    height: 15px;
+}
+
+
+
+#first-section {
+    display: flex;
+    justify-content: center;
+    padding: 68px 12px 100px 12px;
+}
+
+#img1-first-section img {
+    width: 67px;
+    padding: 71px 30px 0 50px;
+}
+
+
+#img2-first-section {
+    
+    display: flex;
+    justify-content: center;
+    background-position-x: center;
+}
+
 #quem-somos {
     margin-bottom: 46px;
 }
 
-
-.std-div-3 {
+#quem-somos h2 {
     
-    height: 750px;
-    
-
+    background-position-y: 29%;
 }
 
+.std-div-3 {
+    height: 870px;
+}
 .std-div-4 p {
     width: 78%;
     padding: 21px 0 157px;
@@ -17,9 +64,45 @@
 }
 
 
+.std-div-4 p {
+    width: 72%;
+    padding: 0px 0 254px;
+    font-size: 17px;
+}
 
 
 
 .std-div-4 h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
+}
+
+
+#contato div {
+    width: 404px;
+    height: 26px;
+    font-size: 10px;
+    
+    line-height: 14px;
+    
+    
+    gap: 0px;
+   
+}
+
+
+footer aside p {
+    
+    padding-top: 16px;
+    font-size: 10px;
+}
+
+
+footer aside {
+    height: 33px;
+   
+}
+#contato img {
+    width: 22%;
+    padding-bottom: 33px;
+    height: 56%;
 }
