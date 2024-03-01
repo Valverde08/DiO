@@ -6,7 +6,9 @@
     font-family: 'Archivo', sans-serif;
 }
 
-
+#page{
+    position: absolute;
+}
 
 
 /* Barra Navegação */
