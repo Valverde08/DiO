@@ -134,7 +134,7 @@ header span a {
 #quem-somos{
     background-image: url("../images/quem\ fundo.svg");
     background-repeat: cover;    
-    height: 500px;
+    height: fit-content;
     display: flex;
     justify-content: center;
     align-content: center;
