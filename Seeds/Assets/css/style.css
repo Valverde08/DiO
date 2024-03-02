@@ -170,20 +170,22 @@ header span a {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 612px;
+    width: 55%;
     height: fit-content;
    
     top: 5px;
     
     
+    
 }
 #quem-somos div p{
     
-    font-size: 0.938rem;
+    font-size: 1rem;
     font-weight: 500;
-    line-height: 18px;
+    line-height: 20px;
     letter-spacing: 0.05em;
     text-align: left;
+    height: auto;
     
 
 }
@@ -253,7 +255,8 @@ hr{
     gap: 25px;
     padding-top: 40px;
     padding-bottom: 50px;
-    height: 740px;
+    height: 760px;
+    
 }
 
 #third-div1{

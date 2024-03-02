@@ -1,0 +1,29 @@
+#third-div1 p {
+    line-height: 21px;
+    font-size: 1.1rem;
+    
+}
+
+#third-div2 p {
+    line-height: 21px;
+    font-size: 1.1rem;
+}
+
+#quem-somos div p {
+    font-size: 1.5rem;
+  
+}
+
+
+#quem-somos div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    height: fit-content;
+   
+    top: 5px;
+    
+    
+    
+}

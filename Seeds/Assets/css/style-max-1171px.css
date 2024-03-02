@@ -20,6 +20,7 @@ header nav {
     
     justify-content: start;
     padding-left: 16px;
+    height: 850px;
     
 }
 
@@ -54,4 +55,16 @@ header nav {
 #contato img {
     width: 21%;
     height: 42%;
+}
+
+
+#quem-somos div{
+    
+    width: 56%;
+    height: fit-content;
+   
+    
+    
+    
+    
 }

@@ -23,7 +23,7 @@ header span {
     width: 100vw;
     background-image: url(../images/quem\ fundomobile.svg);
     background-repeat: no-repeat;
-    background-size: 100% 132%;
+    background-size: 100% 108%;
     
 }
 #third-div2 img {
@@ -43,6 +43,7 @@ header span {
     font-size: 1.75rem;
     
 }
+
 
 
 
@@ -75,4 +76,19 @@ header span {
 }
 .renda {
     padding: 29px 0px 0px 46px;
+}
+
+#first-section {
+    
+    padding: 150px 0 0px 0;
+}
+
+
+
+
+
+.std-div-3 {
+    height: 890px;
+    font-size: 1.75rem;
+    padding-left: 24px;
 }

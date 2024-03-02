@@ -62,12 +62,13 @@ header {
 #quem-somos div {
     
     padding-left: 24px;
+    
 }
 #quem-somos h2 {
-    margin-top: 50px;
-    height: auto;
+    margin-top: 80px;
+    height: 100px;
     font-size: 2.125rem;
-    background-size: 100% 174%;
+    background-size: 100% 154%;
 }
 #quem-somos{
     
@@ -103,6 +104,11 @@ header {
     width: 99%;
     height: 600px;
     justify-content: start;
+
+}
+
+.std-div-3 h3{
+   font-size: 1.5rem;
 
 }
 

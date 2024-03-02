@@ -34,6 +34,13 @@ header {
 }
 
 #quem-somos h2 {
-   background-size: 103% 162%;
-   background-position-y: 13%;
+   background-size: 100% 108%;
+   
+}
+
+
+.std-div-3 {
+   height: 960px;
+   font-size: 1.75rem;
+   padding-left: 24px;
 }

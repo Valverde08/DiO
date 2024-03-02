@@ -7,6 +7,9 @@ header nav {
 }
 
 
+#quem-somos div {
+    width: 49%;
+}
 
 #quem-somos div p {
     font-size: 1.2rem;
@@ -26,11 +29,14 @@ header nav {
 }
 
 #third-div1 p {
-    line-height: 20px;
+    line-height: 22px;
+    font-size: 1.3rem;
+    
 }
 
 #third-div2 p {
-    line-height: 20px;
+    line-height: 22px;
+    font-size: 1.3rem;
 }
 
 .sep-h3 p{
