@@ -6,7 +6,7 @@
 
 
 .std-div-3 {
-    height: 1030px;
+    height: 1199px;
 }
 
 
@@ -28,4 +28,14 @@
 
 .std-div-4 h2 {
     font-size: 1.3rem;
+}
+
+
+.renda-f-cont {
+    
+    padding: 0 0px 0px 28px;
+    
+}
+.renda {
+    padding: 29px 0px 0px 44px;
 }
