@@ -6,10 +6,12 @@
     font-family: 'Archivo', sans-serif;
 }
 
-#page{
+/* #page{
     position: absolute;
+} */
+html,body{
+    overflow-x: hidden;
 }
-
 
 /* Barra Navegação */
 
