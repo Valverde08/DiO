@@ -46,7 +46,7 @@ header span {
 }
 
 #quem-somos {
-    margin-bottom: 46px;
+    margin-bottom: 206px;
     padding-top: 80px;
 }
 
@@ -56,7 +56,11 @@ header span {
 }
 
 .std-div-3 {
-    height: 970px;
+    height: 1020px;
+}
+
+.std-div-3 h3{
+    font-size: 1.2rem;
 }
 .std-div-4 p {
     width: 78%;
@@ -81,7 +85,7 @@ header span {
 #contato div {
     width: 404px;
     height: 26px;
-    font-size: 10px;
+    font-size: 12px;
     
     line-height: 14px;
     
@@ -94,7 +98,7 @@ header span {
 footer aside p {
     
     padding-top: 16px;
-    font-size: 10px;
+    font-size: 10.5px;
 }
 
 
