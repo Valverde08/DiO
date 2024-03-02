@@ -24,6 +24,7 @@ header span {
     background-image: url(../images/quem\ fundomobile.svg);
     background-repeat: no-repeat;
     background-size: 100% 108%;
+    margin-top: 90px;
     
 }
 #third-div2 img {
@@ -42,6 +43,10 @@ header span {
     
     font-size: 1.75rem;
     
+}
+
+.std-div-3 h3{
+    font-size: 1.5rem;
 }
 
 

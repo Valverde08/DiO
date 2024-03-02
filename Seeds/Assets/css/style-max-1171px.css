@@ -7,10 +7,23 @@ header nav {
 }
 
 
+
+
 #quem-somos h2 {
-    width: 40%;
-    
+    width: 100vw;
+    background-image: url(../images/quem\ fundomobile.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 139%;
+    height: 126px;
 }
+
+#quem-somos {
+    background-image: none;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
 
 
 .std-div-3 {
@@ -57,14 +70,3 @@ header nav {
     height: 42%;
 }
 
-
-#quem-somos div{
-    
-    width: 56%;
-    height: fit-content;
-   
-    
-    
-    
-    
-}
