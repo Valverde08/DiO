@@ -103,6 +103,7 @@ header span a {
    background-image: url(../images/foto-central.jpeg);
    background-size: cover;
    width:57%;
+   background-position-y: center;
    
    display: flex;
    justify-content: center;
