@@ -100,7 +100,7 @@ header span a {
 }
 
 #img2-first-section{
-   background-image: url("../images/pexels-marcus-aurelius-6787978\ 1\ \(1\).svg");
+   background-image: url(../images/foto-central.jpeg);
    background-size: cover;
    width:57%;
    
@@ -260,7 +260,7 @@ hr{
 }
 
 #third-div1{
-    background-image: url(../images/BG-Prod1.png);
+    background-image: url(../images/BG-Prod1-certo.png);
     background-size: cover;
     background-repeat: no-repeat;
     /* width: 45%; */
@@ -293,7 +293,7 @@ hr{
     height: 90px;
 }
 #third-div2{
-    background-image: url(../images/BG-Prod2.png);
+    background-image: url(../images/BG-Prod2-certo.png);
     background-size: cover;
     background-repeat: no-repeat;
     /* width: 45%; */
