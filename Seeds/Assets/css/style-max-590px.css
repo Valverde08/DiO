@@ -51,9 +51,8 @@ header nav {
 #contato {
     gap: 21px;
     height: 123px;
-
-    background-size: 100% 57%;
-    padding: 0px;
+    background-size: 100% 82%;
+    padding: 0px 0 49px;
 }
 .std-div-4 {
     width: 85%;
@@ -86,4 +85,15 @@ header nav {
 }
 #third-section-main-div {
     align-items: center;
+}
+
+#contato img {
+    width: 23%;
+    height: 52%;
+    padding-top: 88px;
+}
+
+
+#third-section > h2{
+    height: 20px;
 }
