@@ -42,11 +42,11 @@
 
         botao.addEventListener("click", ()=>{
 
-            let valor = document.getElementsByClassName("quality")
+            let valor = document.querySelector("input[type='radio']:checked")
 
             const div = document.createElement("div")
 
-            div.innerHTML = valor[0].value
+            div.innerText = valor.value
 
 
             document.body.appendChild(div)
