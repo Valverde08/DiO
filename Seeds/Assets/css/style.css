@@ -206,7 +206,7 @@ header span a {
 }
 .nosso{
     
-    height: 79px;              
+    height: 24px;              
     color: #2A4172;
     padding-left: 47px;
     font-family: "Noto Serif", serif;
@@ -455,7 +455,10 @@ hr{
     display: flex;
     justify-content: space-evenly;
     /* gap: 33px; */
+    margin-top: 53px;
 }
+
+
 
 /* contato */
 

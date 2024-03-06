@@ -10,14 +10,13 @@
         <input type="number" step="0.01" id="valor"><br>
         
         <input type="radio" name="quality" id="quality1" value="1">
-        <label for="quality1">1 </label><br>
+        1 <br>
         <input type="radio" name="quality" id="quality2" value="2">
-        <label for="quality2">2 </label><br>
+        2 <br>
         <input type="radio" name="quality" id="quality3" value="3">
-        <label for="quality3">3 </label><br>
+        3 <br>
         <input type="radio" name="quality" id="quality4" value="4">
-        <label for="quality4">4 </label><br>
-
+        4 <br>
         <input type="submit" value="Calcular" id="calcular">
 
         <div id="res"></div>
@@ -42,35 +41,27 @@
         // })
 
         botao.addEventListener("click", ()=>{
-            let valueRadio = document.getElementsByClassName("quality")
 
-                if(valueRadio.checked)
-                    console.log("o selecionado")
-                else 
-                    console.log("o não selecionado")
-            
-            
+            let valor = document.getElementsByClassName("quality")
 
-                
+            const div = document.createElement("div")
+
+            div.innerHTML = valor[0].value
+
+
+            document.body.appendChild(div)
+
+
+
+
+
+
+
+
+        }                    
+
                         
-                        
-                    
-                    
-                    
-                
-
-
-            
-
-
-
-
-            
-
-            
-
-            
-        })
+        )
 
 
 
