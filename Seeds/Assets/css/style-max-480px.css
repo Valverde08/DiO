@@ -35,7 +35,7 @@ header span {
 
 .std-div-4 p {
     width: 76%;
-    padding: 0px 0 254px;
+    padding: 0px 0 247px;
     font-size: 17px;
 }
 
@@ -83,7 +83,7 @@ footer aside {
 }
 
 #quem-somos{
-    margin-bottom: 176px;
+    margin-bottom: 226px;
 }
 
 
@@ -92,3 +92,12 @@ footer aside {
 }
 
 
+#third-div1 {
+    
+    align-self: center;
+}
+
+#third-div2 {
+    
+    align-self: center;
+}
