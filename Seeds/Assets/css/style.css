@@ -138,7 +138,9 @@ header span a {
 /* Seção QUem somos */
 #quem-somos{
     background-image: url("../images/quem\ fundo.svg");
-    background-repeat: cover;    
+    background-repeat: no-repeat; 
+    background-size: cover; 
+
     height: fit-content;
     display: flex;
     justify-content: center;
@@ -183,7 +185,7 @@ header span a {
     
     font-size: 1rem;
     font-weight: 500;
-    line-height: 20px;
+    line-height: 21.4px;
     letter-spacing: 0.05em;
     text-align: left;
     height: auto;
@@ -416,6 +418,7 @@ hr{
     align-self: center;
     text-align: left;
     color: #F4EEE9;
+    line-height: 20px;
     font-size: 1.04rem;
     padding: 2px 0 34px;
     position: relative;
@@ -465,7 +468,8 @@ hr{
     
     align-items: center;
     padding: 15px 0 0 110px;
-    gap: 120px;
+    gap: 20px;
+    justify-content: center;
     
 
 }
@@ -480,9 +484,10 @@ hr{
     text-align: left;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 16px;
     position: relative;
     top: -40px;
+    
     
 
 
@@ -496,17 +501,21 @@ hr{
 /* footer */
 footer aside{
     height: 50px;
-    background-color: #54160A;
+    background-color: #2A4172;
     display: flex;
     
     border-radius: 10px 10px 0 0 ;
     color:#E4D6C5;
+    justify-content: center;
    
 
 }
 footer aside p{
+    
+    
     padding-left: 50px;
     padding-top: 25px;
+   
 }
 
 

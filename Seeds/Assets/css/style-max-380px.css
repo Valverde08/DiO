@@ -46,7 +46,7 @@ header span {
 }
 
 #quem-somos {
-    margin-bottom: 206px;
+    margin-bottom: 256px;
     padding-top: 80px;
 }
 
@@ -110,4 +110,13 @@ footer aside {
     width: 22%;
     padding-bottom: 33px;
     height: 56%;
+}
+
+#third-section-main-div {
+    align-items: flex-end;
+}
+
+.std-div-3 {
+    width: 106%;
+    
 }

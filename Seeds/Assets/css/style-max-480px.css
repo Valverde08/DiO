@@ -34,8 +34,8 @@ header span {
 }
 
 .std-div-4 p {
-    width: 78%;
-    padding: 0px 0 184px;
+    width: 76%;
+    padding: 0px 0 254px;
     font-size: 17px;
 }
 
@@ -85,4 +85,10 @@ footer aside {
 #quem-somos{
     margin-bottom: 176px;
 }
+
+
+#third-section > h2{
+    height: 17px;
+}
+
 

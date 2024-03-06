@@ -11,12 +11,13 @@ header nav {
 
 #quem-somos div {
     
-    width: 64%;
+    width: 80%;
 
     
 }
 #quem-somos{
     margin-bottom: 50px;
+    background-size: 121% 124%;
 }
 
 #quem-somos div {
@@ -67,7 +68,7 @@ header nav {
 .std-div-3{
     height: 52.5rem;
     
-    padding-top: 0px;
+    justify-content: flex-start;
     height: 840px;
     
     

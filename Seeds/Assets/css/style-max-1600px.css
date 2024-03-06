@@ -16,6 +16,17 @@ header nav {
     
 }
 
+#quem-somos{
+    margin-bottom: 44px;
+    background-size: 100% 138%;
+}
+
+#quem-somos div p {
+    
+    line-height: 25px;
+}
+
+
 .renda {
     
     padding: 24px 0px 0px 76px;
