@@ -39,7 +39,9 @@
 
         }
 
-        
+        function transformar(){
+            
+        }
 
        
 
@@ -52,9 +54,16 @@
             const div = document.createElement("div")
 
             if(valor.value == 1){
-                res = calcular(valor.value,qualidade) 
+                if(quality < 1){
+                    res = calcular(qualidade,0.0216666666666667)
+                }  else {
+                    res = calcular(144,0.013)
+                }
+                div.innerText = res    
+               
+                     
 
-                div.innerText = res
+                    
             } else if(valor.value == 2){
 
             } else if(valor.value == 3){
