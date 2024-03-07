@@ -510,6 +510,7 @@ footer aside{
     border-radius: 10px 10px 0 0 ;
     color:#E4D6C5;
     justify-content: center;
+    
    
 
 }
@@ -517,8 +518,9 @@ footer aside p{
     
     
     padding-left: 50px;
-    padding-top: 25px;
-   
+    padding-top: 21px;
+    align-self: center;
+    padding-bottom: 24px;
 }
 
 
