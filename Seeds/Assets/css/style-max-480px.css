@@ -101,3 +101,15 @@ footer aside {
     
     align-self: center;
 }
+
+#contato div {
+   /* height: auto; */
+   
+}
+footer aside p {
+    padding-left: 0px;
+    padding-top: 0px;
+    
+    padding-bottom: 0px;
+    align-self: center;
+}

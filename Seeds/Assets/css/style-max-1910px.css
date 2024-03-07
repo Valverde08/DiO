@@ -65,6 +65,10 @@ header nav {
 #contato {
     
     gap: 5%;
+    justify-content: center;
+    padding: 18px 0px 44px 241px;
+
+    
 }
 
 #contato div {
@@ -73,6 +77,7 @@ header nav {
     font-size: 23px;
    
 }
+
 
 
 #contato img {
