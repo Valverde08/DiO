@@ -102,9 +102,8 @@ header {
 
 .std-div-3 {
     width: 99%;
-    height: 600px;
-    justify-content: start;
-
+    height: 700px;
+    justify-content: flex-start;
 }
 
 .std-div-3 h3{
@@ -114,7 +113,7 @@ header {
 
 
 .renda {
-    padding: 29px 0px 0px 68px;
+    padding: 29px 0px 0px 77px;
 }
 
 #third-div1 p {
@@ -137,7 +136,7 @@ header {
 
 .std-div-4 p {
     width: 73%;
-    padding: 2px 0 259px;
+    padding: 2px 0 279px;
     font-size: 16px;
 }
 
@@ -156,9 +155,14 @@ header {
     padding: 0px;
 }
 #contato img {
-    width: 26%;
-    height: 56%;
+    width: 20%;
+    height: 50%;
 }
+
+#contato div {
+    top: -67px;
+}
+
 
 /* footer */
 

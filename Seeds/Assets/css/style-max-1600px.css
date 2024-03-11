@@ -12,7 +12,7 @@ header nav {
 
 #quem-somos div {
     
-    width: 47%;
+    width: 51%;
     
 }
 
@@ -21,7 +21,12 @@ header nav {
     background-size: 100% 138%;
 }
 
+#quem-somos h2 {
+    
+    top: -12px;
+}
 #quem-somos div p {
+    font-size: 1.1rem;
     
     line-height: 25px;
 }
@@ -50,10 +55,7 @@ header nav {
     padding-right: 58px;
     padding-left: 19px;
 }
-#quem-somos div p {
-    font-size: 1rem;
-   
-}
+
 
 
 .nosso {
@@ -66,12 +68,15 @@ header nav {
     font-size: 1.1rem;
     padding: 1px 0 1px;
     font-size: 1.1rem;
-    padding: 0px 0 24px;
+    padding: 0px 0 44px;
+    line-height: 21px;
     
 }
 
 .std-div-3{
+    justify-content: center;
     padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 #contato {
@@ -79,7 +84,18 @@ header nav {
     padding: 18px 0px 0 229px;
     
 }
+#contato img{
+    
+    width: auto;
+    
+}
 
+
+#contato div {
+   
+    top: -12px;
+    font-size: 20px;
+}
 
 
 

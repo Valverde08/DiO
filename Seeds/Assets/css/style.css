@@ -162,7 +162,7 @@ header span a {
     line-height: 54px;
     color: #2a4172;
     position: relative;
-    top: -59px;
+    top: -45px;
     
     
 
@@ -173,17 +173,17 @@ header span a {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 55%;
+    width: 82%;
     height: fit-content;
    
-    top: 5px;
+    
     
     
     
 }
 #quem-somos div p{
     
-    font-size: 1rem;
+    font-size: 1.235rem;
     font-weight: 500;
     line-height: 21.4px;
     letter-spacing: 0.05em;
@@ -206,7 +206,7 @@ header span a {
 }
 .nosso{
     
-    height: 55px;             
+    height: 20px;           
     color: #2A4172;
     padding-left: 47px;
     font-family: "Noto Serif", serif;
@@ -254,10 +254,10 @@ hr{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 25px;
     padding-top: 40px;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
     height: 760px;
     
 }
@@ -272,7 +272,7 @@ hr{
 }
 #third-div1 p {    
     
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 500;
     line-height: 23px;
     letter-spacing: 0em;
@@ -307,7 +307,7 @@ hr{
 }
 #third-div2 p {    
     
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 500;
     line-height: 23px;
     letter-spacing: 0em;
@@ -419,8 +419,8 @@ hr{
     text-align: left;
     color: #F4EEE9;
     line-height: 20px;
-    font-size: 1.04rem;
-    padding: 2px 0 34px;
+    font-size: 1.2rem;
+    padding: 2px 0 80px;
     position: relative;
 }
 
@@ -482,7 +482,7 @@ hr{
     width: 614px;
     height: 112px;
     
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 800;
     line-height: 20px;
     letter-spacing: 0.08em;
@@ -491,7 +491,7 @@ hr{
     flex-direction: column;
     gap: 16px;
     position: relative;
-    top: -40px;
+    top: -26px;
     
     
 
@@ -499,7 +499,7 @@ hr{
 
 }
 #contato img{
-    width: 209px;
+    width: 163px;
     height: 116px;
 }
 
@@ -523,6 +523,11 @@ footer aside p{
     padding-top: 21px;
     align-self: center;
     padding-bottom: 24px;
+}
+
+
+.sessao{
+    height: 80px;
 }
 
 

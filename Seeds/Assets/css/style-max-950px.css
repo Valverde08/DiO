@@ -11,7 +11,7 @@ header {
 
 .std-div-4 p {
    
-   padding: 21px 0 197px;
+   padding: 21px 0 227px;
 }
 .renda {
    padding: 29px 0px 0px 39px;
@@ -29,8 +29,9 @@ header {
 }
 
 
-#contato div{
-   gap: 8px;
+#contato div {
+   gap: 7px;
+   top:-44px
 }
 
 #quem-somos h2 {
@@ -43,4 +44,7 @@ header {
    height: 960px;
    font-size: 1.75rem;
    padding-left: 24px;
+}
+.renda {
+   padding: 29px 0px 0px 51px;
 }
