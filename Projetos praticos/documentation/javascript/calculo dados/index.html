@@ -7,7 +7,7 @@
 </head>
 <body>
     
-        <input type="datetime"  id="valor"><br>
+        <input type="number"  id="hours" required min="0" max="24" placeholder="HH">:<input type="number"  id="minutes" required min="0" max="60" placeholder="MM">:<input type="number"  id="seconds" required min="0" max="60" placeholder="SS"><br>
         
         <input type="radio" name="quality" id="quality1" value="1">
         144p <br>
@@ -31,8 +31,15 @@
     
    <script>
 
+        function processQuality(tempo,qualidade){
+            return tempo * qualidade
+
+        }
+
 
         let botao = document.querySelector("#calcular")
+
+       
 
         function calcular(valor, qualidade){
             return valor * qualidade
@@ -43,11 +50,35 @@
             
         }
 
-       
-
         botao.addEventListener("click", ()=>{
 
-            let qualidade = document.querySelector("#valor").value
+            let qualidade = document.querySelector("input[type='radio']:checked")
+
+            let hours = document.querySelector("#hours")
+
+            let minutes = document.querySelector("#minutes")
+
+            let seconds = document.querySelector("#seconds")
+
+            let res = document.querySelector("#res")
+
+            
+
+            if(qualidade.value == 1 ){
+                let vHours = Number(hours.value) * 80
+                
+                res.innerText = `Foram gastos ${vHours}mb de internet para assistir um vídeo de ${hours.value}h em 144p   ` 
+            }
+
+            
+            
+
+
+        })
+
+        // botao.addEventListener("click", ()=>{
+
+            
 
             // let valor = document.querySelector("input[type='radio']:checked")
 
@@ -73,9 +104,9 @@
             // }
 
             
-            div.innerText = qualidade 
+            // div.innerText = `Esse vídeo tem ${minutes} minutos e ${seconds} segundos `
 
-            document.body.appendChild(div)
+            // document.body.appendChild(div)
 
             
 
@@ -91,10 +122,10 @@
 
 
 
-        }                    
+        // }                    
 
                         
-        )
+        // )
 
 
 
