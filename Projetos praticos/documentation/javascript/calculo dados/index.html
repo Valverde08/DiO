@@ -63,31 +63,32 @@
             let res = document.querySelector("#res")
 
 
-          console.log(hours.value)
+          console.log(Number(hours.value), Number(minutes.value) )
             
-            // if(minutes.value == null && seconds.value == null && hours.value == null){
-            //         res.innerText = `Os não podem ser nulos`
-                // } if(minutes.value <= 59 && seconds.value <= 59 ){
-                //     if(qualidade.value == 1 ){
+            if(Number(hours.value) === 0 && Number(minutes.value) === 0  && Number(seconds.value) === 0){
+                // res.innerText = `É necessário que pelo menos se tenha 1s de vídeo `
+                alert("oi")
+                } if(minutes.value <= 59 && seconds.value <= 59 ){
+                    if(qualidade.value == 1 ){
 
                 
-                //         let vHours = Number(hours.value) * 80 
+                        let vHours = Number(hours.value) * 80 
 
-                //         let vMinutes = Number(minutes.value) * 1.3 
+                        let vMinutes = Number(minutes.value) * 1.3 
 
-                //         let vSeconds = Number(seconds.value) * 0.21 
+                        let vSeconds = Number(seconds.value) * 0.21 
 
-                //         let totaMb = vHours + vMinutes + vSeconds
+                        let totaMb = vHours + vMinutes + vSeconds
 
-                //         res.innerText = `Foram gastos ${totaMb.toFixed(2)}mb de internet para assistir um vídeo de ${hours.value}h ${minutes.value}m ${seconds.value}s em 144p   `
-                // }
+                        res.innerText = `Foram gastos ${totaMb.toFixed(2)}mb de internet para assistir um vídeo de ${hours.value}h ${minutes.value}m ${seconds.value}s em 144p   `
+                }
 
             
                 
                 
-            // } else {
-            //         res.innerText = `Os campos de minutos e segundos não podem ser maior do que 60`
-            //     }
+            } else {
+                    res.innerText = `Os campos de minutos e segundos não podem ser maior do que 60`
+                }
             
 
             
