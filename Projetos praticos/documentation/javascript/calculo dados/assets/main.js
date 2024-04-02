@@ -6,6 +6,8 @@ function processQuality(tempo,qualidade){
 
 let botao = document.querySelector("#calcular")
 
+let btnChoice = document.querySelector("#ecolher")
+
 
 
 function calcular(valor, qualidade){
@@ -13,9 +15,11 @@ function calcular(valor, qualidade){
 
 }
 
-function transformar(){
-    
-}
+
+
+
+
+let op = document.querySelector("#sel-prod")
 
 botao.addEventListener("click", ()=>{
 
@@ -35,7 +39,7 @@ botao.addEventListener("click", ()=>{
     if(Number(hours.value) === 0 && Number(minutes.value) === 0  && Number(seconds.value) === 0){
         res.innerText = `Os campos não podem ser vazios `
         
-        } if(minutes.value <= 59 && seconds.value <= 59 ){
+    }else if(minutes.value <= 59 && seconds.value <= 59 ){
             if(qualidade.value == 1 ){
 
         
@@ -107,4 +111,17 @@ botao.addEventListener("click", ()=>{
 
 
 })
+
+btnChoice.addEventListener("click", ()=>{
+
+    let res = document.querySelector("#res")
+
+    res.innerText = op.value
+
+})
+
+
+
+
+res.innerHTML = op.value
 
