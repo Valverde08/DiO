@@ -117,8 +117,13 @@ btnChoice.addEventListener("click", ()=>{
     let res = document.querySelector("#res")
 
     let img = document.querySelector("<img>")
+
+    if(img.src == "./assets/css/1 (1).png"){
+
+
+    }
     
-    img.src.toggle("../")
+    
 
 
 
