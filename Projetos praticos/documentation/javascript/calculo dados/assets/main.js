@@ -116,12 +116,15 @@ btnChoice.addEventListener("click", ()=>{
 
     let res = document.querySelector("#res")
 
-    let img = document.querySelector("<img>")
 
-    if(img.src == "./assets/css/1 (1).png"){
-
-
+    let spot = document.querySelector(".spotify")
+        
+    if(spot.style.display == "none"){
+        spot.style.display = "block"
+    } else {
+        spot.style.display = "none"
     }
+    
     
     
 

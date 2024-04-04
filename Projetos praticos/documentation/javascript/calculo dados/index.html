@@ -3,40 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/index.css">
     <title>Document</title>
 </head>
 <body>
 
-        <select name="sel-prod" id="sel-prod" >
-            <option value="">-select</option>
-            <option value="youtube">youtube</option>
-            <option value="spotify">spotify</option>
-        </select>
-        <button id="ecolher">escolher</button>
-    
-        <input type="number"  id="hours" required  min="0" placeholder="HH">:<input type="number"  id="minutes" required min="0" max="59" placeholder="MM">:<input type="number"  id="seconds" required min="0" max="59" placeholder="SS"><br>
-        
-        <input type="radio" name="quality" id="quality1" value="1">
-        144p <br>
-        <input type="radio" name="quality" id="quality2" value="2">
-        240p <br>
-        <input type="radio" name="quality" id="quality3" value="3">
-        320p <br>
-        <input type="radio" name="quality" id="quality4" value="4">
-        480p <br>
-        <input type="radio" name="quality" id="quality4" value="4">
-        720p <br>
-        <input type="radio" name="quality" id="quality4" value="4">
-        1080p <br>
-        <input type="radio" name="quality" id="quality4" value="4">
-        1440p <br>
-        <input type="radio" name="quality" id="quality4" value="4">
-        3480p <br>
-        <input type="submit" value="Calcular" id="calcular">
-
-        <div id="res"></div>
-
-        <img src="./assets/css/1 (1).png" alt="teste">
+        <div class="youtube">
+            <select name="sel-prod" id="sel-prod" >
+                <option value="">-select</option>
+                <option value="youtube">youtube</option>
+                <option value="spotify">spotify</option>
+            </select>
+            <button id="ecolher">escolher</button>
+            <input type="number"  id="hours" required  min="0" placeholder="HH">:<input type="number"  id="minutes" required min="0" max="59" placeholder="MM">:<input type="number"  id="seconds" required min="0" max="59" placeholder="SS"><br>
+            
+            <input type="radio" name="quality" id="quality1" value="1">
+            144p <br>
+            <input type="radio" name="quality" id="quality2" value="2">
+            240p <br>
+            <input type="radio" name="quality" id="quality3" value="3">
+            320p <br>
+            <input type="radio" name="quality" id="quality4" value="4">
+            480p <br>
+            <input type="radio" name="quality" id="quality4" value="4">
+            720p <br>
+            <input type="radio" name="quality" id="quality4" value="4">
+            1080p <br>
+            <input type="radio" name="quality" id="quality4" value="4">
+            1440p <br>
+            <input type="radio" name="quality" id="quality4" value="4">
+            3480p <br>
+            <input type="submit" value="Calcular" id="calcular">
+            <div id="res"></div>
+            <img src="./assets/css/1 (1).png" alt="teste">
+        </div>
+        <div class="spotify">
+            <select name="sel-prod" id="sel-prod" >
+                <option value="">-select</option>
+                <option value="youtube">youtube</option>
+                <option value="spotify">spotify</option>
+            </select>
+            <button id="ecolher">escolher</button>
+            
+        </div>
     
    <script src="./assets/main.js"></script>
 </body>
