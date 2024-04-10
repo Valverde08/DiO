@@ -1,6 +1,7 @@
 .youtube{
-    
+    display: block;
 }
 .spotify{
     display: none;
 }
+

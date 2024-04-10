@@ -23,7 +23,7 @@ let op = document.querySelector("#sel-prod")
 
 botao.addEventListener("click", ()=>{
 
-    let qualidade = document.querySelector("input[type='radio']:checked")
+    let qualidade = document.querySelector("#quality")
 
     let hours = document.querySelector("#hours")
 
@@ -74,7 +74,7 @@ botao.addEventListener("click", ()=>{
 
                 res.innerText = `Foram gastos ${totaMb.toFixed(2)}mb de internet para assistir um vídeo de ${hours.value}h ${minutes.value}m ${seconds.value}s em 320p   `
 
-            } else if(qualidade.value == 5 ){
+            } else if(qualidade.value == 4 ){
                 let vHours = Number(hours.value) * 500 
 
                 let vMinutes = Number(minutes.value) * 8.3
@@ -85,7 +85,7 @@ botao.addEventListener("click", ()=>{
 
                 res.innerText = `Foram gastos ${totaMb.toFixed(2)}mb de internet para assistir um vídeo de ${hours.value}h ${minutes.value}m ${seconds.value}s em 480p   `
 
-            } else if(qualidade.value == 6 ){
+            } else if(qualidade.value == 5){
                 let vHours = Number(hours.value) * 1500 
 
                 let vMinutes = Number(minutes.value) * 25
@@ -96,7 +96,41 @@ botao.addEventListener("click", ()=>{
 
                 res.innerText = `Foram gastos ${totaMb.toFixed(2)}mb de internet para assistir um vídeo de ${hours.value}h ${minutes.value}m ${seconds.value}s em 720p   `
 
-            }
+            } else if(qualidade.value == 6){
+                let vHours = Number(hours.value) * 3000
+
+                let vMinutes = Number(minutes.value) * 50
+
+                let vSeconds = Number(seconds.value) * 0.833
+
+                let totaMb = vHours + vMinutes + vSeconds
+
+                res.innerText = `Foram gastos ${totaMb.toFixed(2)}mb de internet para assistir um vídeo de ${hours.value}h ${minutes.value}m ${seconds.value}s em 1080p   `
+
+            } else if(qualidade.value == 7){
+                let vHours = Number(hours.value) * 5500 
+
+                let vMinutes = Number(minutes.value) * 90
+
+                let vSeconds = Number(seconds.value) * 1.5
+
+                let totaMb = vHours + vMinutes + vSeconds
+
+                res.innerText = `Foram gastos ${totaMb.toFixed(2)}mb de internet para assistir um vídeo de ${hours.value}h ${minutes.value}m ${seconds.value}s em 2k `
+
+            } else if(qualidade.value == 8){
+                let vHours = Number(hours.value) * 14000 
+
+                let vMinutes = Number(minutes.value) * 233
+
+                let vSeconds = Number(seconds.value) * 0.416
+
+                let totaMb = vHours + vMinutes + vSeconds
+
+                res.innerText = `Foram gastos ${totaMb.toFixed(2)}mb de internet para assistir um vídeo de ${hours.value}h ${minutes.value}m ${seconds.value}s em 4k `
+
+            } 
+
 
     
         
@@ -114,16 +148,25 @@ botao.addEventListener("click", ()=>{
 
 btnChoice.addEventListener("click", ()=>{
 
-    let res = document.querySelector("#res")
+    
+    let sel_op = document.querySelector("#sel-prod")
+    
 
 
     let spot = document.querySelector(".spotify")
-        
-    if(spot.style.display == "none"){
-        spot.style.display = "block"
-    } else {
+    let you = document.querySelector(".youtube")
+    if(sel_op.value == "youtube") {
         spot.style.display = "none"
+        you.style.display ="block"
+    } else if (sel_op.value == "spotify") {
+        spot.style.display = "block"
+        you.style.display ="none"
     }
+    
+
+    
+
+   
     
     
     
@@ -135,5 +178,5 @@ btnChoice.addEventListener("click", ()=>{
 
 
 
-res.innerHTML = op.value
+
 
