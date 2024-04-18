@@ -1,8 +1,11 @@
-const ajax = new XMLHttpRequest()
+fetch('https://viacep.com.br/ws/01001000/json/')
+    .then(T => T.json())
+    .then(dados =>{
+        let res  = [...dados]
 
-ajax.open('GET', 'https://viacep.com.br/ws/40100310/json/')
-ajax.send()
+        console.log(res)
 
-ajax.onload = function(){
-    console.log(ajax.responseURL)
-}
+
+    })
+
+    
